@@ -15,7 +15,7 @@ My E-Portfolio based on work carried out on my Msc Program on Artificial Intelli
 1.  Unit 2 Seminar Preparation
 1. 	E-Portfolio Component
 
-[Link to another page](./another-page.html).
+[Link to Machine Learning](./machine_learning.html).
 
 There should be whitespace between paragraphs.
 
