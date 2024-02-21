@@ -107,7 +107,7 @@ Each unit in this curriculum is designed to build upon the knowledge and skills 
 ### Unit 12
    - [**Unit 12 Reflective Essay**](#): Reflective Essay
 
-   - [**Unit 11 Artifacts**](#)
+   - [**Unit 12 Artifacts**](#)
       - **[e-Portfolio Activity:Reflective Essay](../machine_learning/unit3.md)**
 
 
