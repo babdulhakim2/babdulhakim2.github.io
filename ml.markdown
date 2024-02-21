@@ -104,6 +104,13 @@ Each unit in this curriculum is designed to build upon the knowledge and skills 
    - **[e-Portfolio Activity:Model Performance Measurement](../machine_learning/Unit11_model_Performance_Measurement.html)**: Model Performance Measurement with Confusion Matrix
 
 
+### Unit 12
+   - [**Unit 12 Reflective Essay**](#): Reflective Essay
+
+   - [**Unit 11 Artifacts**](#)
+      - **[e-Portfolio Activity:Reflective Essay](../machine_learning/unit3.md)**
+
+
 
 ---
 

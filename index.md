@@ -10,6 +10,6 @@ My E-Portfolio based on work carried out on my Msc Program on Artificial Intelli
 ## Induction Computing
 ## Understanding Artificial Intelligence
 ## Numerical Analysis
-## [Machine Learning 2023](./ml/) : Collection of work and Artifact related to Machine Learning Module
+## [Machine Learning 2023](./ml/) : Collection of work and Artifacts related to Machine Learning 
 
 
