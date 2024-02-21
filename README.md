@@ -2,6 +2,11 @@
 
 Welcome to the repository for my E-Portfolio, a comprehensive showcase of work carried out during my MSc Program in Artificial Intelligence at the University of Essex. This Jekyll site is designed to document my projects, reflections, and learnings in the field of AI, providing insights into my academic journey and professional development.
 
+## Demo
+
+View the live site at [https://babdulhakim2.github.io/ml/](https://babdulhakim2.github.io/ml/)
+
+
 ## Getting Started
 
 These instructions will guide you through setting up the project locally for development and personal review purposes.
