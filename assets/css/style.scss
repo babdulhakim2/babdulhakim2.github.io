@@ -2,3 +2,30 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+// Custom styles
+.unit-card {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border-left: 4px solid #267CB9;
+  
+  h3 {
+    margin-top: 0;
+    color: #267CB9;
+  }
+  
+  ul {
+    margin-bottom: 0;
+  }
+  
+  a {
+    color: #267CB9;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
