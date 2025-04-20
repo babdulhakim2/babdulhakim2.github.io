@@ -1,0 +1,112 @@
+# Machine Learning Units Data
+# This file contains all the information for ML units to be displayed on the site
+
+- unit_number: "1-3"
+  title: "Collaborative Discussion 1: The 4th Industrial Revolution"
+  description: "A collaborative discussion on Schwab (2016) article from World Economic Forum, discussing the impact of the fourth industrial revolution on the economy."
+  artifacts:
+    - title: "Initial Post"
+      url: "../machine_learning/unit1.md"
+      description: "The 2018 Marriott Breach: Examining Privacy and Security Concerns in the World of AI."
+    - title: "Feedback by Liz"
+      url: "../machine_learning/unit1_1.md"
+      description: "Feedback by Liz"
+    - title: "Feedback by Daisy"
+      url: "../machine_learning/unit1_2.md"
+      description: "Feedback by Daisy"
+
+- unit_number: "2"
+  title: "Unit 2 Seminar Preparation"
+  description: "This is an exploratory data analysis on the House Prices Kaggle Competition."
+  artifacts:
+    - title: "Exploratory Data Analysis"
+      url: "../machine_learning/Unit02_A_Tutorial_on_Exploratory_Data_Analysis.html"
+      description: "A comprehensive tutorial on conducting exploratory data analysis as part of the machine learning process."
+
+- unit_number: "3"
+  title: "e-Portfolio Component"
+  description: "An e-Portfolio Activity: Correlation and Regression"
+  artifacts:
+    - title: "Covariance Pearson Correlation"
+      url: "../machine_learning/Unit03_Ex1_covariance_pearson_correlation.html"
+      description: "Covariance and Pearson Correlation"
+    - title: "Linear Regression"
+      url: "../machine_learning/Unit03_Ex2_linear_regression.html"
+      description: "Linear Regression"
+    - title: "Multiple Linear Regression"
+      url: "../machine_learning/Unit03_Ex3_multiple_linear_regression.html"
+      description: "Multiple Linear Regression"
+    - title: "Polinomial Regression"
+      url: "../machine_learning/Unit03_Ex4_polynomial_regression.html"
+      description: "Polinomial Regression"
+
+- unit_number: "4"
+  title: "Unit 4 Seminar Preparation"
+  description: "In-depth preparation for the Unit 4 seminar, encompassing both formative and e-Portfolio elements."
+
+- unit_number: "5"
+  title: "Jaccard Coefficient Calculations"
+  description: "An e-Portfolio Activity: Jaccard Coefficient Calculations"
+  artifacts:
+    - title: "Jaccard Coefficient Calculations"
+      url: "../machine_learning/Unit_05_e-Portfolio_ActivityJaccard_Coefficient_Calculations.html"
+      description: "Jaccard Coefficient Calculations"
+
+- unit_number: "6"
+  title: "Unit 6 Artifacts"
+  artifacts:
+    - title: "Development Team Project: Project Analysis"
+      url: "../machine_learning/machine_learning.html"
+      description: "Airbnb business analysis using data science approach"
+    - title: "Development Team Project: Project Report"
+      url: "../machine_learning/AirBnbReport.html"
+      description: "Airbnb business analysis report"
+
+- unit_number: "8"
+  title: "Unit 8 Gradient Cost Function"
+  description: "Calculating cost with gradient descent and learning rate"
+  artifacts:
+    - title: "e-Portfolio Activity:Gradient Cost Function"
+      url: "../machine_learning/Unit08_Exgradient_descent_cost_function.html"
+      description: "Gradient Cost Function"
+
+- unit_number: "8-10"
+  title: "Collaborative Discussion 2: Legal and Ethical views on ANN applications"
+  description: "A collaborative discussion on Hutson (2021) in Nature on Robo-writers discussing on the risks and benefits of the use AI writers at different levels, from administrative work to creative writing."
+  artifacts:
+    - title: "Initial Post"
+      url: "../machine_learning/unit2.md"
+      description: "The exploration of AI-driven writing tools, as discussed by Hutson (2021)"
+    - title: "Feedback by Ahmed"
+      url: "../machine_learning/unit2_1.md"
+      description: "Feedback by Ahmed"
+    - title: "My Reply to Ahmed"
+      url: "../machine_learning/unit2_2.md"
+      description: "My Reply to Ahmed"
+    - title: "Summary Post"
+      url: "../machine_learning/unit2_3.md"
+      description: "Summary Post"
+
+- unit_number: "9"
+  title: "Unit 9 CNN Model Activity"
+  description: "Convolutional Neural Networks (CNN) - Object Recognition"
+  artifacts:
+    - title: "e-Portfolio Activity:CNN Model Activity"
+      url: "../machine_learning/Unit09_Ex1_Convolutional_Neural_Networks.html"
+      description: "CNN Model Activity"
+
+- unit_number: "11"
+  title: "Unit 11 Model Performance Measurement"
+  description: "Model Performance Measurement"
+  artifacts:
+    - title: "e-Portfolio Activity:Model Performance Measurement"
+      url: "../machine_learning/Unit11_model_Performance_Measurement.html"
+      description: "Model Performance Measurement with Confusion Matrix"
+
+- unit_number: "12"
+  title: "Unit 12 Reflective Essay"
+  description: "Reflective Essay"
+  artifacts:
+    - title: "e-Portfolio Activity:Reflective Essay"
+      url: "../machine_learning/unit3.md"
+      description: "Reflective Essay"

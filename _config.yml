@@ -4,3 +4,17 @@ description: My E-Portfolio based on work carried out on my Msc Program on Artif
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+
+# Collections for organizing content
+collections:
+  machine_learning:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults for layouts
+defaults:
+  - scope:
+      path: ""
+      type: "machine_learning"
+    values:
+      layout: "default"

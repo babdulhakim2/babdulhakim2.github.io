@@ -1,0 +1,28 @@
+{% comment %}
+  Usage: 
+  {% include unit-card.html 
+    unit_number="1" 
+    unit_title="Example Unit"
+    unit_description="Description of the unit"
+    artifacts=site.data.unit1_artifacts 
+  %}
+{% endcomment %}
+
+<div class="unit-card">
+  <h3 id="unit-{{ include.unit_number }}">Unit {{ include.unit_number }}{% if include.unit_title %}: {{ include.unit_title }}{% endif %}</h3>
+  
+  {% if include.unit_description %}
+  <p>{{ include.unit_description }}</p>
+  {% endif %}
+  
+  {% if include.artifacts %}
+  <p><strong>Unit {{ include.unit_number }} Artifacts:</strong></p>
+  <ul>
+    {% for artifact in include.artifacts %}
+    <li><strong><a href="{{ artifact.url }}">{{ artifact.title }}</a></strong>: {{ artifact.description }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+
+<hr /> 
