@@ -4,7 +4,7 @@ Welcome to the repository for my E-Portfolio, a comprehensive showcase of work c
 
 ## Demo
 
-View the live site at [https://babdulhakim2.github.io/ml/](https://babdulhakim2.github.io/ml/)
+View the live site at [https://babdulhakim2.github.io/](https://babdulhakim2.github.io/)
 
 
 ## Getting Started
