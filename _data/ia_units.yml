@@ -27,7 +27,10 @@
 - unit_number: "5-7"
   title: "Collaborative Discussion 2: Agent Communication Languages"
   description: "Discussion on agent communication languages and protocols"
-  artifacts: []
+  artifacts:
+    - title: "Initial Post and Peer Responses"
+      url: "/ia/unit5-7/"
+      description: "Comparing KQML with traditional method invocation approaches"
 
 - unit_number: "6"
   title: "Creating Agent Dialogues"
@@ -57,7 +60,13 @@
 - unit_number: "9-11"
   title: "Collaborative Discussion 3: Deep Learning"
   description: "Discussion on deep learning applications in intelligent agents"
-  artifacts: []
+  artifacts:
+    - title: "Initial Post and Peer Responses"
+      url: "/ia/unit9-11/"
+      description: "Beyond Creativity: Ethical Imperatives in AI Alignment and Interpretability"
+    - title: "Summary Post"
+      url: "/ia/unit9-11-summary/"
+      description: "Summarizing key ethical concerns in AI alignment and interpretability"
 
 - unit_number: "10"
   title: "Deep Learning in Action"
