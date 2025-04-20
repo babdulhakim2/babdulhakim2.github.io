@@ -1,0 +1,85 @@
+# Intelligent Agents Units Data
+# This file contains all the information for Intelligent Agents units to be displayed on the site
+
+- unit_number: "1-3"
+  title: "Collaborative Discussion 1: Agent Based Systems"
+  description: "Discussion on agent-based systems and their applications"
+  artifacts:
+    - title: "Initial Post and Peer Responses"
+      url: "/ia/unit1/"
+      description: "The rise of agent-based systems and their benefits to organisations"
+
+- unit_number: "1"
+  title: "Unit 1 Seminar Preparation"
+  description: "Preparation for Unit 1 seminar"
+  artifacts: []
+
+- unit_number: "2"
+  title: "Unit 2 Seminar Preparation"
+  description: "Preparation for Unit 2 seminar"
+  artifacts: []
+
+- unit_number: "4"
+  title: "Unit 4 Seminar Preparation"
+  description: "Preparation for Unit 4 seminar"
+  artifacts: []
+
+- unit_number: "5-7"
+  title: "Collaborative Discussion 2: Agent Communication Languages"
+  description: "Discussion on agent communication languages and protocols"
+  artifacts: []
+
+- unit_number: "6"
+  title: "Creating Agent Dialogues"
+  description: "Creating and analyzing agent dialogue patterns"
+  artifacts: []
+
+- unit_number: "6"
+  title: "Development Team Project: Project Report and Peer Review"
+  description: "Group project on implementing intelligent agent systems"
+  artifacts: []
+
+- unit_number: "6"
+  title: "Unit 6 Seminar Preparation"
+  description: "Preparation for Unit 6 seminar"
+  artifacts: []
+
+- unit_number: "8"
+  title: "Creating Parse Trees"
+  description: "Exercise on creating and analyzing parse trees"
+  artifacts: []
+
+- unit_number: "8"
+  title: "Unit 8 Seminar Preparation"
+  description: "Preparation for Unit 8 seminar"
+  artifacts: []
+
+- unit_number: "9-11"
+  title: "Collaborative Discussion 3: Deep Learning"
+  description: "Discussion on deep learning applications in intelligent agents"
+  artifacts: []
+
+- unit_number: "10"
+  title: "Deep Learning in Action"
+  description: "Practical application of deep learning in intelligent agent systems"
+  artifacts: []
+
+- unit_number: "10"
+  title: "Unit 10 Seminar Preparation"
+  description: "Preparation for Unit 10 seminar"
+  artifacts: []
+
+- unit_number: "11"
+  title: "Individual Project: Presentation"
+  description: "Individual presentation on an intelligent agent implementation"
+  artifacts: []
+
+- unit_number: "12"
+  title: "Individual Module e-Portfolio"
+  description: "Compilation of module e-Portfolio demonstrating learning across all units"
+  artifacts: []
+
+- unit_number: "12"
+  title: "Unit 12 Seminar Preparation"
+  description: "Preparation for Unit 12 seminar"
+  artifacts: []
