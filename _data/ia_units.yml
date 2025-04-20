@@ -12,17 +12,42 @@
 - unit_number: "1"
   title: "Unit 1 Seminar Preparation"
   description: "Preparation for Unit 1 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit1-summary/"
+      description: "Introduction to Agent-Based Computing"
 
 - unit_number: "2"
   title: "Unit 2 Seminar Preparation"
   description: "Preparation for Unit 2 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit2-summary/"
+      description: "Introducing First Order Logic"
+
+- unit_number: "3"
+  title: "Unit 3 Seminar Preparation"
+  description: "Preparation for Unit 3 seminar"
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit3-summary/"
+      description: "Agent Architectures"
 
 - unit_number: "4"
   title: "Unit 4 Seminar Preparation"
   description: "Preparation for Unit 4 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit4-summary/"
+      description: "Hybrid Agent Architectures"
+
+- unit_number: "5"
+  title: "Unit 5 Seminar Preparation"
+  description: "Preparation for Unit 5 seminar"
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit5-summary/"
+      description: "Agent Communication"
 
 - unit_number: "5-7"
   title: "Collaborative Discussion 2: Agent Communication Languages"
@@ -35,7 +60,10 @@
 - unit_number: "6"
   title: "Creating Agent Dialogues"
   description: "Creating and analyzing agent dialogue patterns"
-  artifacts: []
+  artifacts:
+    - title: "Agent Dialogue Implementation"
+      url: "/ia/agent-dialogues/"
+      description: "KQML/KIF dialogue between procurement and warehouse agents"
 
 - unit_number: "6"
   title: "Development Team Project: Project Report and Peer Review"
@@ -45,17 +73,42 @@
 - unit_number: "6"
   title: "Unit 6 Seminar Preparation"
   description: "Preparation for Unit 6 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit6-summary/"
+      description: "Working Together with Agent Communication Languages"
+
+- unit_number: "7"
+  title: "Unit 7 Seminar Preparation"
+  description: "Preparation for Unit 7 seminar"
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit7-summary/"
+      description: "Natural Language Processing"
 
 - unit_number: "8"
   title: "Creating Parse Trees"
   description: "Exercise on creating and analyzing parse trees"
-  artifacts: []
+  artifacts:
+    - title: "Parse Tree Examples"
+      url: "/ia/parse-trees/"
+      description: "Constituency-based parse trees for example sentences"
 
 - unit_number: "8"
   title: "Unit 8 Seminar Preparation"
   description: "Preparation for Unit 8 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit8-summary/"
+      description: "Understanding Natural Language Processing"
+
+- unit_number: "9"
+  title: "Unit 9 Seminar Preparation"
+  description: "Preparation for Unit 9 seminar"
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit9-summary/"
+      description: "Introduction to Adaptive Algorithms"
 
 - unit_number: "9-11"
   title: "Collaborative Discussion 3: Deep Learning"
@@ -71,24 +124,34 @@
 - unit_number: "10"
   title: "Deep Learning in Action"
   description: "Practical application of deep learning in intelligent agent systems"
-  artifacts: []
-
-- unit_number: "10"
-  title: "Unit 10 Seminar Preparation"
-  description: "Preparation for Unit 10 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit10-summary/"
+      description: "Deep Learning in Action"
+    - title: "Technology Analysis"
+      url: "/ia/deep-learning-activity/"
+      description: "Analysis of GPT models and their societal impacts"
 
 - unit_number: "11"
   title: "Individual Project: Presentation"
   description: "Individual presentation on an intelligent agent implementation"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit11-summary/"
+      description: "Intelligent Agents in Action"
 
 - unit_number: "12"
   title: "Individual Module e-Portfolio"
   description: "Compilation of module e-Portfolio demonstrating learning across all units"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit12-summary/"
+      description: "The Future of Intelligent Agents"
 
 - unit_number: "12"
   title: "Unit 12 Seminar Preparation"
   description: "Preparation for Unit 12 seminar"
-  artifacts: []
+  artifacts:
+    - title: "Unit Summary"
+      url: "/ia/unit12-summary/"
+      description: "The Future of Intelligent Agents"
