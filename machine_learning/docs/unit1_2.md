@@ -15,10 +15,10 @@ Additionally, the 4IR has conducted in a shift towards more virtual and digital 
 
 ### References
 
-- Fruhlinger, J. (2020). *Marriott data breach FAQ: How did it happen and what was the impact?* [online] CSO Online. Available at: [https://www.csoonline.com/article/567795/marriott-data-breach-faq-how-did-it-happen-and-what-was-the-impact.html](https://www.csoonline.com/article/567795/marriott-data-breach-faq-how-did-it-happen-and-what-was-the-impact.html) [Accessed 23 Nov. 2023].
+- Fruhlinger, J. (2020). _Marriott data breach FAQ: How did it happen and what was the impact?_ [online] CSO Online. Available at: [https://www.csoonline.com/article/567795/marriott-data-breach-faq-how-did-it-happen-and-what-was-the-impact.html](https://www.csoonline.com/article/567795/marriott-data-breach-faq-how-did-it-happen-and-what-was-the-impact.html) [Accessed 23 Nov. 2023].
 
-- Khan, A.O., Sher Badshah, Liang, P., Khan, B., Waseem, M., Niazi, M. and Akbar, M. (2021). *Ethics of AI: A Systematic Literature Review of Principles and Challenges.* ArXiv. doi:[https://doi.org/10.48550/arxiv.2109.07906](https://doi.org/10.48550/arxiv.2109.07906).
+- Khan, A.O., Sher Badshah, Liang, P., Khan, B., Waseem, M., Niazi, M. and Akbar, M. (2021). _Ethics of AI: A Systematic Literature Review of Principles and Challenges._ ArXiv. doi:[https://doi.org/10.48550/arxiv.2109.07906](https://doi.org/10.48550/arxiv.2109.07906).
 
-- Schwab, K. (2016). *The Fourth Industrial Revolution: what it means, how to respond.* [online] World Economic Forum. Available at: [https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/](https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/) [Accessed 13 Nov. 2023].
+- Schwab, K. (2016). _The Fourth Industrial Revolution: what it means, how to respond._ [online] World Economic Forum. Available at: [https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/](https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/) [Accessed 13 Nov. 2023].
 
-- Telford, T. and Timberg, C. (2023). *Marriott discloses massive data breach affecting up to 500 million guests.* The Washington Post. [online] 23 Nov. Available at: [https://www.washingtonpost.com/business/2018/11/30/marriott-discloses-massive-data-breach-impacting-million-guests/](https://www.washingtonpost.com/business/2018/11/30/marriott-discloses-massive-data-breach-impacting-million-guests/).
+- Telford, T. and Timberg, C. (2023). _Marriott discloses massive data breach affecting up to 500 million guests._ The Washington Post. [online] 23 Nov. Available at: [https://www.washingtonpost.com/business/2018/11/30/marriott-discloses-massive-data-breach-impacting-million-guests/](https://www.washingtonpost.com/business/2018/11/30/marriott-discloses-massive-data-breach-impacting-million-guests/).

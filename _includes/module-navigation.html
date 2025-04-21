@@ -1,0 +1,99 @@
+{% comment %}
+  Usage: 
+  {% include module-navigation.html 
+    units=site.data.ml_units 
+    module_title="Machine Learning" 
+  %}
+{% endcomment %}
+
+<div class="module-navigation">
+  <div class="module-nav-header">
+    <h3>{{ include.module_title }}</h3>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+  
+  <div class="module-nav-content">
+    <ul>
+      {% for unit in include.units %}
+      <li>
+        <a href="#unit-{{ unit.unit_number }}" class="nav-link" data-unit="unit-{{ unit.unit_number }}">
+          <span class="unit-dot">{{ unit.unit_number }}</span>
+          {% if unit.title %}{{ unit.title }}{% else %}Unit {{ unit.unit_number }}{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    const moduleNavContent = document.querySelector('.module-nav-content');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navToggle.addEventListener('click', function() {
+      moduleNavContent.classList.toggle('show');
+      navToggle.classList.toggle('active');
+    });
+    
+    // Function to set the active navigation link based on hash
+    function setActiveNavLink() {
+      const hash = window.location.hash;
+      
+      // Remove active class from all links
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+      });
+      
+      // Only add active class if there's an actual hash
+      if (hash) {
+        // Add active class to the matching link
+        const activeLink = document.querySelector(`.nav-link[href="${hash}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active');
+        }
+      }
+    }
+    
+    // Set active link on page load
+    setActiveNavLink();
+    
+    // Set active link when hash changes
+    window.addEventListener('hashchange', setActiveNavLink);
+    
+    // Smooth scrolling for navigation links
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 20,
+            behavior: 'smooth'
+          });
+          
+          // Update URL hash without triggering a jump
+          history.pushState(null, null, targetId);
+          
+          // Set active class
+          navLinks.forEach(navLink => navLink.classList.remove('active'));
+          this.classList.add('active');
+          
+          // On mobile, close the menu after clicking
+          if (window.innerWidth < 768) {
+            moduleNavContent.classList.remove('show');
+            navToggle.classList.remove('active');
+          }
+        }
+      });
+    });
+  });
+</script> 

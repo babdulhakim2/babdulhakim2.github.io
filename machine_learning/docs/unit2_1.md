@@ -15,4 +15,4 @@ I liked the way you structured your post. How do you think the future of AI cont
 
 ## Reference List
 
-- Hutson, M. (2021). *'Robo-writers: the rise and risks of language-generating AI'*. Nature, 591, 22-25.
+- Hutson, M. (2021). _'Robo-writers: the rise and risks of language-generating AI'_. Nature, 591, 22-25.

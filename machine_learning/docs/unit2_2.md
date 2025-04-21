@@ -13,6 +13,6 @@ On the other hand, Kirchenbauer et al. (2023) proposed a watermarking framework 
 
 ### References
 
-- Mitchell, E., Lee, Y., Khazatsky, A., Manning, C. D., & Finn, C. (2023). *DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature*. Available at: [arXiv:2301.11305](https://arxiv.org/abs/2301.11305) [Accessed on 19 February, 2024]
+- Mitchell, E., Lee, Y., Khazatsky, A., Manning, C. D., & Finn, C. (2023). _DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature_. Available at: [arXiv:2301.11305](https://arxiv.org/abs/2301.11305) [Accessed on 19 February, 2024]
 
-- Kirchenbauer, J., Geiping, J., Wen, Y., Katz, J., Miers, I., & Goldstein, T. (2023). *A Watermark for Large Language Models*. Available at: [arXiv:2301.10226](https://arxiv.org/abs/2301.10226) [Accessed on 19 February, 2024]
+- Kirchenbauer, J., Geiping, J., Wen, Y., Katz, J., Miers, I., & Goldstein, T. (2023). _A Watermark for Large Language Models_. Available at: [arXiv:2301.10226](https://arxiv.org/abs/2301.10226) [Accessed on 19 February, 2024]

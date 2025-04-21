@@ -40,9 +40,9 @@ My commitment, as I forge ahead, is to navigate this terrain with a dedication t
 
 ## References
 
-- Goodfellow, I., Bengio, Y., and Courville, A. (2016). *Deep Learning*. MIT Press.
-- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer.
-- Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. Springer.
-- Mittelstadt, B., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). 'The ethics of algorithms: Mapping the debate', *Big Data & Society*. Available online at: [https://journals.sagepub.com/doi/10.1177/2053951716679679](https://journals.sagepub.com/doi/10.1177/2053951716679679)
-- Osborne, J. W. (2010). Improving your data transformations: Applying the Box-Cox transformation. *Practical Assessment, Research, and Evaluation*, 15(12), p.3. Available at: [https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1238&context=pare](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1238&context=pare)
-- Schwab, K. (2016). *The Fourth Industrial Revolution*. World Economic Forum.
+- Goodfellow, I., Bengio, Y., and Courville, A. (2016). _Deep Learning_. MIT Press.
+- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). _An Introduction to Statistical Learning: with Applications in R_. Springer.
+- Hastie, T., Tibshirani, R., & Friedman, J. (2009). _The Elements of Statistical Learning: Data Mining, Inference, and Prediction_. Springer.
+- Mittelstadt, B., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). 'The ethics of algorithms: Mapping the debate', _Big Data & Society_. Available online at: [https://journals.sagepub.com/doi/10.1177/2053951716679679](https://journals.sagepub.com/doi/10.1177/2053951716679679)
+- Osborne, J. W. (2010). Improving your data transformations: Applying the Box-Cox transformation. _Practical Assessment, Research, and Evaluation_, 15(12), p.3. Available at: [https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1238&context=pare](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1238&context=pare)
+- Schwab, K. (2016). _The Fourth Industrial Revolution_. World Economic Forum.

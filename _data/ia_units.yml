@@ -3,51 +3,189 @@
 
 - unit_number: "1-3"
   title: "Collaborative Discussion 1: Agent Based Systems"
-  description: "Discussion on agent-based systems and their applications"
+  description: "Discussion on fundamental concepts of agent-based systems and their applications"
   artifacts:
     - title: "Initial Post and Peer Responses"
       url: "/ia/unit1/"
-      description: "The rise of agent-based systems and their benefits to organisations"
+      description: "Discussion on agent-based systems and their practical applications in organisations"
 
 - unit_number: "1"
-  title: "Unit 1 Seminar Preparation"
-  description: "Preparation for Unit 1 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit1-summary/"
-      description: "Introduction to Agent-Based Computing"
+  title: "Unit 1: Introduction to Agent-Based Computing"
+  description: "This unit introduces the fundamental concepts of intelligent agents, their environment, and basic agent architectures."
+  content: |
+    <h4>1.1 Introduction</h4>
+    <p>This unit covers the foundational concepts of intelligent agents. These are computational entities that perceive their environment through sensors and act through actuators to achieve specific goals.</p>
+
+    <h4>1.2 Key Concepts</h4>
+    <p>Intelligent agents have four main characteristics:</p>
+    <ul>
+      <li><strong>Autonomy:</strong> Operating independently without direct human control</li>
+      <li><strong>Social ability:</strong> Interacting with other agents and humans</li>
+      <li><strong>Reactivity:</strong> Perceiving and responding to changes in the environment</li>
+      <li><strong>Proactivity:</strong> Taking initiative to achieve goals, not just reacting</li>
+    </ul>
+
+    <h4>1.3 Learning Outcomes</h4>
+    <p>Key outcomes from this unit include:</p>
+    <ul>
+      <li>Understanding the definition of intelligent agents and their properties</li>
+      <li>Identifying different types of agent environments</li>
+      <li>Distinguishing between reactive, deliberative, and hybrid architectures</li>
+      <li>Applying basic agent design principles to practical problems</li>
+    </ul>
+
+    <h4>1.4 Reflection Notes</h4>
+    <p>The agent paradigm provides a useful framework for AI systems. There are important connections between human cognition and agent architecture that inform design approaches (Wooldridge, 2009). This is particularly evident in how agents can be designed to implement decision-making processes.</p>
+
+    <p>A significant challenge in agent design is balancing reactivity with goal-directed behavior (Russell & Norvig, 2020). Agents that are too reactive may not achieve long-term goals, while those too focused on goals might miss important environmental changes. Finding the right balance is critical for effective application (Wooldridge, 2009). Future research could explore how agents might adjust this balance based on their current situation.</p>
+  references: |
+    <ol>
+      <li>Wooldridge, M.J. (2009). An Introduction to Multiagent Systems. Chichester: John Wiley & Sons. Chapter 2.</li>
+    </ol>
+  artifacts: []
 
 - unit_number: "2"
-  title: "Unit 2 Seminar Preparation"
-  description: "Preparation for Unit 2 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit2-summary/"
-      description: "Introducing First Order Logic"
+  title: "Unit 2: Introducing First Order Logic"
+  description: "This unit introduces the fundamental elements of first order (predicate) logic, providing a mathematical foundation for representing knowledge in intelligent agent systems."
+  content: |
+    <h4>2.1 Introduction to First Order Logic</h4>
+    <p>First order logic (FOL) offers a formal language with enhanced expressiveness compared to propositional logic. It provides a mathematical foundation for representing knowledge in intelligent agent systems and supports more sophisticated reasoning capabilities. Chapter 8 of Russell and Norvig (2021) details these concepts thoroughly.</p>
+
+    <h4>2.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Predicates and Relations:</strong> Expressions that describe properties of objects or relationships between objects</li>
+      <li><strong>Quantifiers:</strong> Universal (∀) and existential (∃) operators that extend logic to make statements about entire collections of objects</li>
+      <li><strong>Inference Rules:</strong> Methods for deriving new statements from existing ones in a logical system</li>
+    </ul>
+
+    <h4>2.3 Learning Outcomes</h4>
+    <ul>
+      <li>Understanding the core elements of first order logic</li>
+      <li>Developing awareness of creating and reasoning over first order logic</li>
+      <li>Recognizing the relationship between first order logic and natural language</li>
+    </ul>
+
+    <h4>2.4 Reflection Notes</h4>
+    <p>First order logic provides a rich framework for knowledge representation in intelligent systems, offering significant advantages over simpler logical forms. According to Russell and Norvig (2021, p.289), FOL "can express facts about some or all of the objects in the universe," making it substantially more powerful than propositional logic for modeling complex domains.</p>
+
+    <p>The expressiveness of FOL comes from its ability to represent objects, properties, and relations through predicates. As noted by Russell and Norvig (2021, p.293), this allows for the formation of statements that can capture nuanced real-world knowledge that would be unwieldy or impossible to represent in propositional systems.</p>
+
+    <p>Quantifiers in FOL enable reasoning about collections of objects rather than just specific instances. This capability is essential for agent systems that need to make generalizations and inferences across complex environments. The connection between FOL and natural language makes it particularly valuable for building agent systems that can interact with humans (Russell and Norvig, 2021, p.294).</p>
+  references: |
+    <ol>
+      <li>Russell, S. & Norvig, P. (2021) <em>Artificial Intelligence: A Modern Approach</em>. 4th ed. Harlow: Pearson Education. Chapter 8.</li>
+    </ol>
+  artifacts: []
 
 - unit_number: "3"
-  title: "Unit 3 Seminar Preparation"
-  description: "Preparation for Unit 3 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit3-summary/"
-      description: "Agent Architectures"
+  title: "Unit 3: Agent Architectures"
+  description: "This unit explores various approaches to agent architectures and their applications."
+  content: |
+    <h4>3.1 Introduction</h4>
+    <p>Agent architectures define how agents perceive, reason, and act. This unit examines different architectural models and their performance across problem domains.</p>
+
+    <h4>3.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Symbolic Reasoning Agents:</strong> Knowledge-based systems using explicit symbolic representations</li>
+      <li><strong>Reactive Architectures:</strong> Systems generating responses directly from environmental stimuli</li>
+      <li><strong>BDI (Belief-Desire-Intention):</strong> Agents with mental states representing knowledge, goals, and commitments</li>
+      <li><strong>Subsumption Architecture:</strong> Layered approach creating complex behaviors from simple components</li>
+    </ul>
+
+    <h4>3.3 Learning Outcomes</h4>
+    <ul>
+      <li>Evaluating different agent architectures</li>
+      <li>Selecting appropriate architectures for specific tasks</li>
+      <li>Understanding intentions versus desires in agent design</li>
+    </ul>
+
+    <h4>3.4 Reflection Notes</h4>
+    <p>Maes (1991, p.116) defines architecture as a methodology that "specifies how the agent can be decomposed into a set of component modules and how these modules should interact" to transform sensor data into actions.</p>
+
+    <p>Symbolic agents use explicit representations but face challenges in real-world complexity. Brooks (1991, p.140) identifies the "transduction problem" of translating reality into symbols and performing manipulations efficiently.</p>
+
+    <p>Brooks' (1991, p.142) subsumption architecture demonstrates how complex behaviors emerge from simple components without internal models, proving effective for real-time applications.</p>
+
+    <p>The BDI model structures reasoning around beliefs, desires, and intentions. Bratman et al. (1988, p.351) describe intentions as "conduct-controlling pro-attitudes" that agents maintain without constant reconsideration, enabling goal persistence with environmental responsiveness.</p>
+  references: |
+    <ol>
+      <li>Maes, P. (1991) The Agent Network Architecture (ANA). SIGART Bulletin 2(4): 115-120.</li>
+      <li>Kaelbling L. P. (1991) A Situated-automata Approach to the Design of Embedded Agents. ACM SIGART Bulletin 2(4): 85-8.</li>
+      <li>Bratman, M.E., Israel, D.J. & Pollack, M.E. (1988) Plans and Resource‐bounded Practical Reasoning. Computational Intelligence 4(3): 349-355.</li>
+      <li>Brooks, R.A. (1991) Intelligence Without Representation. Artificial Intelligence 47(1-3): 139-159.</li>
+      <li>Reynolds, C.W. (1987) Flocks, Herds, and Schools: A Distributed Behavioral Model. Computer Graphics 21(4): 25-34.</li>
+    </ol>
+  artifacts: []
 
 - unit_number: "4"
-  title: "Unit 4 Seminar Preparation"
-  description: "Preparation for Unit 4 seminar"
+  title: "Unit 4: Hybrid Agent Architectures"
+  description: "This unit examines hybrid agent architectures that combine reactive and deliberative behaviors."
+  content: |
+    <h4>4.1 Introduction</h4>
+    <p>Hybrid agent architectures combine reactive and deliberative components to balance responsiveness with reasoning. This unit explores their design principles and applications.</p>
+
+    <h4>4.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Hybrid Architectures:</strong> Systems integrating reactive and deliberative components</li>
+      <li><strong>Layered Architectures:</strong> Hierarchical organizations with specialized functional layers</li>
+      <li><strong>Horizontal vs. Vertical Layering:</strong> Different approaches to information flow</li>
+      <li><strong>TouringMachines:</strong> Three-layer architecture with reactive, planning, and modeling capabilities</li>
+    </ul>
+
+    <h4>4.3 Learning Outcomes</h4>
+    <ul>
+      <li>Critically assessing agent architectures</li>
+      <li>Selecting appropriate architectures for specific problems</li>
+    </ul>
+
+    <h4>4.4 Reflection Notes</h4>
+    <p>Hybrid architectures address limitations of both reactive and deliberative approaches. Wooldridge (2009, p.89) notes they "offer the best of both worlds," combining responsive behavior with goal-oriented reasoning.</p>
+
+    <p>Most hybrid systems use layered approaches with two primary patterns: horizontal layering (parallel access to sensors/actuators) and vertical layering (sequential processing). Each presents different control challenges (Wooldridge, 2009, p.90).</p>
+
+    <p>Key examples include Ferguson's TouringMachines with three horizontal layers (reactive, planning, modeling) and InteRRaP's vertical structure where information flows upward while control flows downward (Wooldridge, 2009, p.91-94). The choice of architecture depends on domain requirements, particularly when environments demand both fast responses and goal-directed behavior.</p>
+  references: |
+    <ol>
+      <li>Wooldridge, M.J. (2009) <em>An Introduction to Multiagent Systems</em>. 2nd ed. Chichester: John Wiley & Sons. Chapter 5.</li>
+    </ol>
   artifacts:
-    - title: "Unit Summary"
+    - title: "Unit 4 Summary"
+      description: "Overview of Hybrid Agent Architectures"
       url: "/ia/unit4-summary/"
-      description: "Hybrid Agent Architectures"
 
 - unit_number: "5"
-  title: "Unit 5 Seminar Preparation"
-  description: "Preparation for Unit 5 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit5-summary/"
-      description: "Agent Communication"
+  title: "Unit 5: Agent Communication"
+  description: "This unit explores how agents communicate with each other, focusing on speech act theory, agent communication languages, and ontologies."
+  content: |
+    <h4>5.1 Introduction</h4>
+    <p>Effective communication is essential for multi-agent systems. This unit examines the theoretical foundations of language use in agent systems and practical protocols for inter-agent messaging.</p>
+
+    <h4>5.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Speech Acts:</strong> Utterances that perform actions beyond conveying information</li>
+      <li><strong>KQML:</strong> Knowledge Query and Manipulation Language for agent communication</li>
+      <li><strong>Ontologies:</strong> Formal knowledge representations supporting shared understanding</li>
+      <li><strong>CID:</strong> Correspondence Inclusion Dialogue for ontology alignment</li>
+    </ul>
+
+    <h4>5.3 Learning Outcomes</h4>
+    <ul>
+      <li>Developing and working with ontologies</li>
+      <li>Creating inter-agent communications using relevant languages</li>
+    </ul>
+
+    <h4>5.4 Reflection Notes</h4>
+    <p>Speech act theory treats language as action. Searle (1969, p.16) states that "speaking a language is engaging in a rule-governed form of behavior," emphasizing that communication changes the world state, not just transfers information.</p>
+
+    <p>KQML implements speech act theory by separating performatives (actions) from propositional content, reflecting Searle's distinction between illocutionary force and content (1969, p.31). This enables agents to interpret both message content and intended actions.</p>
+
+    <p>Ontologies ensure agents share common understanding of terms. Without alignment, agents may use identical terms differently or different terms for the same concepts. As Payne and Tamma (2014, p.518) explain, "semantic heterogeneity can impede meaningful communication" between agents with different ontological assumptions.</p>
+  references: |
+    <ol>
+      <li>Searle, J.R. (1969) <em>Speech Acts: An Essay in the Philosophy of Language</em>. Cambridge: Cambridge University Press. Pages 1-53.</li>
+      <li>Payne, T.R. & Tamma, V. (2014) 'Negotiating over ontological correspondences with asymmetric and incomplete knowledge', <em>AAMAS</em>, 13(1), pp. 517-524.</li>
+    </ol>
+  artifacts: []
 
 - unit_number: "5-7"
   title: "Collaborative Discussion 2: Agent Communication Languages"
@@ -58,60 +196,146 @@
       description: "Comparing KQML with traditional method invocation approaches"
 
 - unit_number: "6"
-  title: "Creating Agent Dialogues"
-  description: "Creating and analyzing agent dialogue patterns"
+  title: "Unit 6: Working Together"
+  description: "This unit focuses on practical applications of agent communication languages, specifically KQML and KIF."
+  content: |
+    <h4>6.1 Introduction</h4>
+    <p>Building on communication theory, this unit explores practical implementations of agent dialogues using standardized languages and protocols.</p>
+
+    <h4>6.2 Key Concepts</h4>
+    <ul>
+      <li><strong>KQML:</strong> Knowledge Query and Manipulation Language - the protocol layer</li>
+      <li><strong>KIF:</strong> Knowledge Interchange Format - the content layer</li>
+      <li><strong>Performatives:</strong> Speech act types defining message intentions</li>
+      <li><strong>Agent Dialogues:</strong> Structured conversations between agents</li>
+    </ul>
+
+    <h4>6.3 Learning Outcomes</h4>
+    <ul>
+      <li>Developing dialogues using KQML/KIF</li>
+      <li>Understanding ontologies for knowledge sharing</li>
+      <li>Evaluating approaches to agent communication</li>
+    </ul>
+
+    <h4>6.4 Reflection Notes</h4>
+    <p>KQML provides a standardized framework implementing speech act theory. Finin et al. (1994, p.456) describe it as "a language and protocol for exchanging information and knowledge" enabling diverse agents to interact regardless of internal architecture.</p>
+
+    <p>The separation into content, message, and communication layers allows appropriate abstraction when processing messages. The distinction between message layer (KQML performatives) and content layer (typically KIF) mirrors speech act theory's separation of illocutionary force and propositional content (Finin et al., 1994, p.458).</p>
+
+    <p>Implementation challenges include semantic ambiguity, lack of formal semantics in early versions, and practical issues of message routing, agent naming, and security (Finin et al., 1994, p.462).</p>
+  references: |
+    <ol>
+      <li>Finin, T., Fritzson, R., McKay, D. & McEntire, R. (1994) 'KQML as an agent communication language', <em>CIKM</em>, 1, pp. 456-463.</li>
+    </ol>
   artifacts:
-    - title: "Agent Dialogue Implementation"
+    - title: "Creating Agent Dialogues"
+      description: "KQML/KIF dialogue implementation activity"
       url: "/ia/agent-dialogues/"
-      description: "KQML/KIF dialogue between procurement and warehouse agents"
-
-- unit_number: "6"
-  title: "Development Team Project: Project Report and Peer Review"
-  description: "Group project on implementing intelligent agent systems"
-  artifacts:
-    - title: "Project Report"
-      url: "/assets/docs/Development Team Project - Project Report.pdf"
-      description: "Development Team Project - Project Report"
-
-- unit_number: "6"
-  title: "Unit 6 Seminar Preparation"
-  description: "Preparation for Unit 6 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit6-summary/"
-      description: "Working Together with Agent Communication Languages"
+    - title: "Development Team Project: Project Report and Peer Review"
+      description: "Project Report"
+      url: "/assets/docs/Development%20Team%20Project%20-%20Project%20Report.pdf"
 
 - unit_number: "7"
-  title: "Unit 7 Seminar Preparation"
-  description: "Preparation for Unit 7 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit7-summary/"
-      description: "Natural Language Processing"
+  title: "Unit 7: Natural Language Processing (NLP)"
+  description: "This unit examines NLP technologies for intelligent agents."
+  content: |
+    <h4>7.1 Introduction</h4>
+    <p>This unit explores NLP foundations, approaches, and implementation challenges.</p>
+
+    <h4>7.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Linguistic Analysis:</strong> Syntax, semantics, pragmatics</li>
+      <li><strong>Statistical Approaches:</strong> Word embeddings, vector models</li>
+      <li><strong>Parsing:</strong> Formal grammars, constituency and dependency methods</li>
+    </ul>
+
+    <h4>7.3 Learning Outcomes</h4>
+    <ul>
+      <li>Evaluating NLP system development challenges</li>
+      <li>Understanding core NLP principles</li>
+    </ul>
+
+    <h4>7.4 Reflection Notes</h4>
+    <p>NLP challenges stem from language complexity. Mikolov et al. (2013, p.3111) discuss "distributed representations" for handling ambiguity. Word2Vec enables semantic operations like "king - man + woman ≈ queen" (Mikolov et al., 2013, p.3112).</p>
+
+    <p>Hearst (1992, p.539) pioneered pattern-based relationship extraction, while dependency parsing captures "interlinking dependencies of words" (Aqab and Tariq, 2020, p.140). Despite advances, systems struggle with implicit meaning and cultural references.</p>
+  references: |
+    <ol>
+      <li>Mikolov, T., et al. (2013) Distributed representations of words and phrases and their compositionality. <em>Advances in neural information processing systems</em>, 1, pp. 3111-3119.</li>
+      <li>Hearst, M.A. (1992) Automatic acquisition of hyponyms from large text corpora. <em>COLING</em>, 2, pp. 539-545.</li>
+      <li>Aqab, S. & Tariq, M.U. (2020) Handwriting recognition using artificial intelligence neural network and image processing. <em>IJACSA</em>, 11(7), pp. 137-146.</li>
+    </ol>
+  artifacts: []
 
 - unit_number: "8"
-  title: "Creating Parse Trees"
-  description: "Exercise on creating and analyzing parse trees"
+  title: "Unit 8: Understanding Natural Language Processing (NLP)"
+  description: "This unit provides practical exploration of NLP technologies and techniques."
+  content: |
+    <h4>8.1 Introduction</h4>
+    <p>This unit bridges theoretical NLP concepts with practical implementation through demonstrations and exercises.</p>
+
+    <h4>8.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Word2Vec Models:</strong> Neural network techniques for word embeddings</li>
+      <li><strong>Vector Space Semantics:</strong> Word representation in multi-dimensional space</li>
+      <li><strong>Constituency Parsing:</strong> Hierarchical analysis of sentence structure</li>
+    </ul>
+
+    <h4>8.3 Learning Outcomes</h4>
+    <ul>
+      <li>Explaining key elements of NLP models</li>
+      <li>Engaging with worked NLP examples</li>
+      <li>Developing parse trees for language understanding</li>
+    </ul>
+
+    <h4>8.4 Reflection Notes</h4>
+    <p>Word2Vec transforms words into vectors where proximity indicates semantic similarity, capturing relationships that symbolic approaches cannot represent. This data-driven approach uses neural networks to learn from context without explicit linguistic rules (Zimmerman, 2019).</p>
+
+    <p>Constituency parsing complements vector-based semantics by revealing grammatical structure through hierarchical decomposition. Parse trees resolve ambiguities impossible to address at word level alone, as in "the man saw the dog with the telescope," which has multiple interpretations depending on prepositional phrase attachment (Zimmerman, 2019).</p>
+  references: |
+    <ol>
+      <li>Zimmerman, V. (2019) 'Getting to Grips with Parse Trees', <em>Towards Data Science</em>.</li>
+    </ol>
   artifacts:
-    - title: "Parse Tree Examples"
+    - title: "Creating Parse Trees"
+      description: "Constituency-based parse tree examples for sentence analysis"
       url: "/ia/parse-trees/"
-      description: "Constituency-based parse trees for example sentences"
-
-- unit_number: "8"
-  title: "Unit 8 Seminar Preparation"
-  description: "Preparation for Unit 8 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit8-summary/"
-      description: "Understanding Natural Language Processing"
 
 - unit_number: "9"
-  title: "Unit 9 Seminar Preparation"
-  description: "Preparation for Unit 9 seminar"
+  title: "Unit 9: Introduction to Adaptive Algorithms"
+  description: "This unit introduces adaptive algorithms, with a focus on Artificial Neural Networks and Deep Learning."
+  content: |
+    <h4>9.1 Introduction</h4>
+    <p>This unit explores adaptive algorithms that enable intelligent agents to learn from data without explicit programming.</p>
+
+    <h4>9.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Artificial Neural Networks (ANNs):</strong> Computational models inspired by biological neural networks</li>
+      <li><strong>Deep Learning:</strong> Advanced neural networks with multiple hidden layers</li>
+      <li><strong>CNNs:</strong> Specialized networks for processing grid-like data such as images</li>
+      <li><strong>RNNs:</strong> Networks with feedback connections for sequential data</li>
+    </ul>
+
+    <h4>9.3 Learning Outcomes</h4>
+    <ul>
+      <li>Understanding core concepts of artificial neural networks</li>
+      <li>Appraising the relative strengths of these techniques</li>
+      <li>Applying intelligent agent techniques to real-world problems</li>
+    </ul>
+
+    <h4>9.4 Reflection Notes</h4>
+    <p>ANNs represent a paradigm shift from explicitly programmed rules to systems learning directly from data. Deep learning extends this with multiple hidden layers enabling hierarchical representations. Huang (2013) notes deep learning excels at "unsupervised feature learning" without human guidance.</p>
+
+    <p>CNNs have revolutionized computer vision with specialized layers mimicking the visual cortex. Microsoft's system demonstrated how CNNs can surpass humans, achieving a 4.94% error rate compared to humans' 5.1% on ImageNet (Thomsen, 2015). RNNs address sequential processing with feedback connections, enabling advances in language tasks.</p>
+  references: |
+    <ol>
+      <li>Huang, X. (2013) 'Andrew N.G on Deep Learning, Self-Taught Learning and Unsupervised Feature Learning'.</li>
+      <li>Thomsen, M. (2015) 'Microsoft's Deep Learning Project Outperforms Humans In Image Recognition', <em>Forbes</em>.</li>
+    </ol>
   artifacts:
-    - title: "Unit Summary"
+    - title: "Unit 9 Summary"
+      description: "Overview of Adaptive Algorithms and Neural Networks"
       url: "/ia/unit9-summary/"
-      description: "Introduction to Adaptive Algorithms"
 
 - unit_number: "9-11"
   title: "Collaborative Discussion 3: Deep Learning"
@@ -125,35 +349,105 @@
       description: "Summarizing key ethical concerns in AI alignment and interpretability"
 
 - unit_number: "10"
-  title: "Deep Learning in Action"
-  description: "Practical application of deep learning in intelligent agent systems"
+  title: "Unit 10: Deep Learning in Action"
+  description: "This unit explores practical applications of Deep Learning technologies and their societal impacts."
+  content: |
+    <h4>10.1 Introduction</h4>
+    <p>This unit examines real-world implementations of deep learning and their transformative effects across industries.</p>
+
+    <h4>10.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Applied Deep Learning:</strong> Real-world neural network implementations</li>
+      <li><strong>Transfer Learning:</strong> Leveraging pre-trained models for new problems</li>
+      <li><strong>Socio-Technical Impact:</strong> Broader societal implications</li>
+      <li><strong>Ethical AI Deployment:</strong> Responsible implementation considerations</li>
+    </ul>
+
+    <h4>10.3 Learning Outcomes</h4>
+    <ul>
+      <li>Understanding technology development and current limitations</li>
+      <li>Appraising products based on socio-economic and ethical impacts</li>
+      <li>Explaining the importance of data in technology delivery</li>
+    </ul>
+
+    <h4>10.4 Reflection Notes</h4>
+    <p>Deep Learning has rapidly transitioned from research to commercial applications. The World Economic Forum (2022) notes these technologies can "improve productivity and boost business" through cognitive task automation and enhanced decision-making.</p>
+
+    <p>Current limitations include massive data requirements and "black box" interpretability challenges. Socio-economic impacts balance efficiency benefits against concerns about job displacement and bias amplification. Data quality remains critical, driving innovations like transfer learning. Ethical deployment requires balancing innovation with potential negative impacts, particularly for vulnerable populations.</p>
+  references: |
+    <ol>
+      <li>World Economic Forum. (2022) 'How Deep Learning can improve productivity and boost business'.</li>
+    </ol>
   artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit10-summary/"
-      description: "Deep Learning in Action"
-    - title: "Technology Analysis"
+    - title: "Deep Learning Activity"
+      description: "Practical exploration of deep learning technologies"
       url: "/ia/deep-learning-activity/"
-      description: "Analysis of GPT models and their societal impacts"
 
 - unit_number: "11"
-  title: "Individual Project: Presentation"
-  description: "Individual presentation on an intelligent agent implementation"
+  title: "Unit 11: Intelligent Agents in Action"
+  description: "This unit integrates agent-based computing, adaptive algorithms, and deep learning to examine practical applications."
+  content: |
+    <h4>11.1 Introduction</h4>
+    <p>This unit explores how intelligent agent technologies transform industries, particularly manufacturing through Industry 4.0 and financial services through FinTech innovations.</p>
+
+    <h4>11.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Industry 4.0:</strong> Smart manufacturing, automation, and data exchange</li>
+      <li><strong>Digital Twins:</strong> Virtual replicas enabling monitoring and optimization</li>
+      <li><strong>Smart Shop Floor:</strong> Manufacturing environments with coordinating systems</li>
+      <li><strong>Agent-Based Financial Modeling:</strong> Multi-agent simulation of markets</li>
+    </ul>
+
+    <h4>11.3 Learning Outcomes</h4>
+    <ul>
+      <li>Applying learned concepts to specific sectors</li>
+      <li>Understanding technology-driven efficiency</li>
+      <li>Evaluating new approaches in context</li>
+    </ul>
+
+    <h4>11.4 Reflection Notes</h4>
+    <p>Industry 4.0 represents a manufacturing paradigm shift. Foit (2022, p.2) notes agent-based modeling "offers a range of advantages in simulating complex manufacturing systems." This enables flexible production that adapts without central control.</p>
+
+    <p>Wang et al. (2016, p.159) propose a "self-organized multi-agent system with big data-based feedback" where machines function as autonomous agents. Digital twins provide virtual replications for optimization, while in finance, the Bank of England (n.d.) explains agent-based models help "understand the economy from the bottom up," simulating emergent phenomena like market crashes.</p>
+  references: |
+    <ol>
+      <li>Bank of England. (n.d.) Agent-based models: understanding the economy from the bottom up.</li>
+      <li>Foit, K. (2022) 'Agent-based Modelling of Manufacturing Systems in the Context of "Industry 4.0"', <em>Journal of Physics: Conference Series</em>, 2198, p. 012064.</li>
+      <li>Wang, S., et al. (2016) 'Towards smart factory for industry 4.0: a self-organized multi-agent system with big data based feedback and coordination', <em>Computer Networks</em>, 101(4), pp. 158-168.</li>
+    </ol>
   artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit11-summary/"
-      description: "Intelligent Agents in Action"
-
-
+    - title: "Individual Project: Presentation"
+      description: "FitnessMAS: Intelligent Fitness Multi-Agent System Implementation"
+      url: "https://github.com/babdulhakim2/babdulhakim2.github.io/tree/main/ia/multi-agent-essex-code"
 
 - unit_number: "12"
-  title: "Individual Module e-Portfolio"
-  description: "Compilation of module e-Portfolio demonstrating learning across all units"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit12-summary/"
-      description: "The Future of Intelligent Agents"
-    - title: "Reflective Essay"
-      url: "/ia/unit12-reflective-essay/"
-      description: "Personal reflections on the Intelligent Agents module"
+  title: "Unit 12: The Future of Intelligent Agents"
+  description: "This unit explores future directions of intelligent technologies, particularly deep learning and AI systems."
+  content: |
+    <h4>12.1 Introduction</h4>
+    <p>This unit examines emerging trends, potential breakthroughs, and broader implications of increasingly sophisticated AI systems.</p>
 
+    <h4>12.2 Key Concepts</h4>
+    <ul>
+      <li><strong>Technological Forecasting:</strong> Methodologies for predicting intelligent agent capabilities</li>
+      <li><strong>AI Alignment:</strong> Ensuring AI systems act according to human values</li>
+      <li><strong>Interpretable AI:</strong> Making AI decision-making transparent and understandable</li>
+      <li><strong>Transformative AI:</strong> Systems with potential to alter social, economic, and political structures</li>
+    </ul>
 
+    <h4>12.3 Learning Outcomes</h4>
+    <ul>
+      <li>Appraising current technologies</li>
+      <li>Assessing potential evolution based on today's examples</li>
+      <li>Evaluating ethical and social considerations</li>
+    </ul>
+
+    <h4>12.4 Reflection Notes</h4>
+    <p>Multimodal learning systems suggest a future with broader contextual understanding. AI alignment represents a critical challenge as systems become more autonomous. Nasim et al. (2022, p.55) note "the gap between AI capabilities and our ability to ensure their safe and beneficial use" continues to widen.</p>
+
+    <p>Interpretability challenges grow as neural architectures become more complex. Nasim et al. (2022, p.58) highlight that AI failures often involve systems where "the decision-making process lacks transparency." The evolution of intelligent agents will be shaped by technical advances alongside cultural, economic, and regulatory factors.</p>
+  references: |
+    <ol>
+      <li>Nasim, S.F., Ali, M.R. & Kulsoom, U. (2022) 'Artificial Intelligence Incidents & Ethics A Narrative Review', <em>IJTIM</em>, 2(2), pp. 52-64.</li>
+    </ol>
+  artifacts: []

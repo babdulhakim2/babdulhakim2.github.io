@@ -5,24 +5,52 @@
     unit_title="Example Unit"
     unit_description="Description of the unit"
     artifacts=site.data.unit1_artifacts 
+    content=unit.content
+    references=unit.references
   %}
 {% endcomment %}
 
-<div class="unit-card">
-  <h3 id="unit-{{ include.unit_number }}">Unit {{ include.unit_number }}{% if include.unit_title %}: {{ include.unit_title }}{% endif %}</h3>
+<div class="unit-card" id="unit-{{ include.unit_number }}">
+  <div class="unit-header">
+    <span class="unit-number">{{ include.unit_number }}</span>
+    <h3>{% if include.unit_title %}{{ include.unit_title }}{% else %}Unit {{ include.unit_number }}{% endif %}</h3>
+  </div>
   
   {% if include.unit_description %}
-  <p>{{ include.unit_description }}</p>
+  <div class="unit-description">
+    <p>{{ include.unit_description }}</p>
+  </div>
   {% endif %}
   
+  <div id="unit-content-{{ include.unit_number }}" class="unit-content collapsed">
+    {{ include.content }}
+    
+    {% if include.references %}
+    <div class="references-section">
+      <div class="references-header" data-target="references-content-{{ include.unit_number }}">
+        <h4>References</h4>
+        <i class="icon fas fa-chevron-down"></i>
+      </div>
+      <div id="references-content-{{ include.unit_number }}" class="references-content">
+        {{ include.references }}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  
   {% if include.artifacts.size > 0 %}
-  <p><strong>Unit {{ include.unit_number }} Artifacts:</strong></p>
-  <ul>
-    {% for artifact in include.artifacts %}
-    <li><strong><a href="{{ artifact.url }}">{{ artifact.title }}</a></strong>: {{ artifact.description }}</li>
-    {% endfor %}
-  </ul>
+  <div class="unit-artifacts">
+    <h4>Artifacts</h4>
+    <ul>
+      {% for artifact in include.artifacts %}
+      <li>
+        <a href="{{ artifact.url }}" class="artifact-link">
+          <span class="artifact-title">{{ artifact.title }}</span>
+          <span class="artifact-description">{{ artifact.description }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
   {% endif %}
-</div>
-
-<hr /> 
+</div> 

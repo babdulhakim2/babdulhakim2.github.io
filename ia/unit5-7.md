@@ -74,4 +74,22 @@ Wooldridge, M. (2009) An Introduction to Multi Agent Systems. United Kingdom: Jo
 
 ---
 
+## Peer Response by Tala Anabtawi
+
+_by Tala Anabtawi - Monday, 21 April 2025, 7:02 PM_
+
+The discussion rightly highlights how Agent Communication Languages (ACLs), such as KQML, support flexible and semantic-rich communication between autonomous agents in distributed systems. Expanding on this, recent developments show how ACLs can go beyond basic coordination to support sophisticated integration with technologies like machine learning. For example, Pérez and Kholod (2021) propose an ACL extension that integrates PMML (Predictive Model Markup Language), enabling agents to not only communicate but also exchange and interpret predictive models. This combination is powerful in data-driven environments, as it allows agents to dynamically share learned knowledge and deploy models across platforms without redundancy.
+
+Similarly, Gaspari (2002) presents an ACL designed specifically for dynamic multi-agent systems. His model introduces support for agent creation, cloning, and anonymous interaction via a distributed facilitator—advancing the capacity for agents to scale, adapt, and self-organize without central oversight. These architectural enhancements allow agents to respond more effectively to dynamic environments, reinforcing the suitability of ACLs for open, evolving systems where agents frequently enter and exit.
+
+Compared to method invocation in Java or Python, which excels in tightly coupled, low-latency systems, ACLs provide the semantic and structural flexibility necessary for intelligent agent autonomy and long-term scalability.
+
+### References
+
+Gaspari, M., 2002. An ACL for a dynamic system of agents. Computational Intelligence, 18(2), pp.102-119.
+
+Pérez, Y.G. and Kholod, I.I., 2021, January. Machine Learning Agent Communication Language Based on ACL and PMML. In 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus) (pp. 573-576). IEEE.
+
+---
+
 [back](../../ia/)

@@ -3,7 +3,6 @@ layout: default
 permalink: /machine_learning/unit1.md/
 ---
 
-
 # The 2018 Marriott International Data Breach: A Cybersecurity and AI Analysis
 
 The 2018 Marriott International data breach underscores the crucial intersection of cybersecurity and AI in the digital era. This report analyses the breach's multifaceted impacts, drawing insights from Schwab (2016) and the McKinsey report on AI (2023).
@@ -19,11 +18,8 @@ Generative AI advancements in areas like natural language processing and robotic
 ## Impacts of the Marriott Breach
 
 1. **Implications to Customers**: Reflecting Schwab’s (2016) concerns, the breach significantly affected customer privacy, highlighting the risks associated with digital data storage and management in an era increasingly dominated by AI ([Uwe et al, 2017](https://arxiv.org/abs/1712.01767)).
-   
 2. **Economic Cost**: The breach led to considerable financial losses for Marriott, exemplifying the economic risks that come with failing to secure AI and data-driven systems.
-   
 3. **Reputational Cost**: The incident adversely affected Marriott’s reputation, showcasing the critical importance of trust in the age of AI and digital transformation ([Kossovsky et al., 2010](https://books.google.co.uk/books?id=ZLf2LTaiADMC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)).
-   
 4. **Regulatory and Legal Implications**: The incident brought Marriott under intense regulatory scrutiny and highlighted the need for robust data protection laws, aligning with Schwab's (2016) call for agile governance in the digital age.
 
 ## AI, Privacy, and Future Considerations
