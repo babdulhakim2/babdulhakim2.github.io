@@ -68,7 +68,10 @@
 - unit_number: "6"
   title: "Development Team Project: Project Report and Peer Review"
   description: "Group project on implementing intelligent agent systems"
-  artifacts: []
+  artifacts:
+    - title: "Project Report"
+      url: "/assets/docs/Development Team Project - Project Report.pdf"
+      description: "Development Team Project - Project Report"
 
 - unit_number: "6"
   title: "Unit 6 Seminar Preparation"
@@ -140,6 +143,8 @@
       url: "/ia/unit11-summary/"
       description: "Intelligent Agents in Action"
 
+
+
 - unit_number: "12"
   title: "Individual Module e-Portfolio"
   description: "Compilation of module e-Portfolio demonstrating learning across all units"
@@ -147,11 +152,8 @@
     - title: "Unit Summary"
       url: "/ia/unit12-summary/"
       description: "The Future of Intelligent Agents"
+    - title: "Reflective Essay"
+      url: "/ia/unit12-reflective-essay/"
+      description: "Personal reflections on the Intelligent Agents module"
 
-- unit_number: "12"
-  title: "Unit 12 Seminar Preparation"
-  description: "Preparation for Unit 12 seminar"
-  artifacts:
-    - title: "Unit Summary"
-      url: "/ia/unit12-summary/"
-      description: "The Future of Intelligent Agents"
+

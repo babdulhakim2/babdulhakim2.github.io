@@ -66,33 +66,5 @@ GPT models and similar LLMs represent a transformative technology with far-reach
 
 The rapid evolution and broad applicability of these models illustrate both the promise and the complexity of deploying advanced deep learning systems in society. Their impact will depend not only on their technical capabilities but also on the governance frameworks, usage policies, and cultural adaptations that emerge around them.
 
-## Assignment Structure
-
-For your own analysis, consider including:
-
-1. **Technology Overview**
-
-   - What is the application?
-   - What capabilities does it provide?
-   - In which domains is it being applied?
-
-2. **Technical Mechanism**
-
-   - What deep learning architecture does it use?
-   - How is it trained?
-   - What data does it require?
-
-3. **Impact Analysis**
-
-   - Ethical considerations
-   - Privacy implications
-   - Social benefits and challenges
-   - Economic effects
-   - Regulatory questions
-
-4. **References**
-   - Include scholarly and industry sources to support your analysis
-
----
 
 [back to Unit 10 summary](../../ia/unit10-summary/) | [back to IA module](../../ia/)

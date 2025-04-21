@@ -17,13 +17,14 @@ Each unit in this curriculum is designed to build understanding of intelligent a
 
 {% for unit in site.data.ia_units %}
 {% if unit.artifacts.size > 0 %}
-{% include ia-unit-card.html 
-  unit_number=unit.unit_number 
+{% include ia-unit-card.html
+  unit_number=unit.unit_number
   unit_title=unit.title
   unit_description=unit.description
-  artifacts=unit.artifacts 
+  artifacts=unit.artifacts
 %}
 {% else %}
+
 <div class="unit-card">
   <h3 id="unit-{{ unit.unit_number }}">Unit {{ unit.unit_number }}{% if unit.title %}: {{ unit.title }}{% endif %}</h3>
   {% if unit.description %}
