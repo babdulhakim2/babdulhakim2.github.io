@@ -1,0 +1,327 @@
+{
+  "job_seekers": [
+    {
+      "id": "JS_141",
+      "category": "Company Details",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 540,
+      "real_data": true
+    },
+    {
+      "id": "JS_144",
+      "category": "Company Details",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 368,
+      "real_data": true
+    },
+    {
+      "id": "JS_146",
+      "category": "Company Details",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 52,
+      "real_data": true
+    },
+    {
+      "id": "JS_1449",
+      "category": "Responsibilities:",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 650,
+      "real_data": true
+    },
+    {
+      "id": "JS_1451",
+      "category": "Responsibilities:",
+      "skills": [
+        "Excel"
+      ],
+      "resume_length": 238,
+      "real_data": true
+    },
+    {
+      "id": "JS_1453",
+      "category": "Responsibilities:",
+      "skills": [
+        "Excel"
+      ],
+      "resume_length": 343,
+      "real_data": true
+    },
+    {
+      "id": "JS_402",
+      "category": "Roles and Responsibility:",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 335,
+      "real_data": true
+    },
+    {
+      "id": "JS_405",
+      "category": "Roles and Responsibility:",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 174,
+      "real_data": true
+    },
+    {
+      "id": "JS_407",
+      "category": "Roles and Responsibility:",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 113,
+      "real_data": true
+    },
+    {
+      "id": "JS_4337",
+      "category": "Testing",
+      "skills": [
+        "General Skills"
+      ],
+      "resume_length": 235,
+      "real_data": true
+    }
+  ],
+  "job_postings": [
+    {
+      "job_id": 138531,
+      "title": "Associate Chemist",
+      "agency": "DEPT OF ENVIRONMENT PROTECTION",
+      "category": "Health Public Safety, Inspections, & Enforcement",
+      "salary_range": "$50,623 - $75,083",
+      "requirements": [
+        "Relevant experience required"
+      ],
+      "posting_type": "Internal",
+      "real_data": true
+    },
+    {
+      "job_id": 197355,
+      "title": "Deputy Commissioner, Wastewater Treatment",
+      "agency": "DEPT OF ENVIRONMENT PROTECTION",
+      "category": "Engineering, Architecture, & Planning Maintenance & Operations",
+      "salary_range": "$198,518 - $198,518",
+      "requirements": [
+        "experience in civil"
+      ],
+      "posting_type": "External",
+      "real_data": true
+    },
+    {
+      "job_id": 132292,
+      "title": "Maintenance Worker - Technical Services-Heating Unit",
+      "agency": "NYC HOUSING AUTHORITY",
+      "category": "Maintenance & Operations",
+      "salary_range": "$51,908 - $54,580",
+      "requirements": [
+        "Relevant experience required"
+      ],
+      "posting_type": "External",
+      "real_data": true
+    },
+    {
+      "job_id": 132292,
+      "title": "Maintenance Worker - Technical Services-Heating Unit",
+      "agency": "NYC HOUSING AUTHORITY",
+      "category": "Maintenance & Operations",
+      "salary_range": "$51,908 - $54,580",
+      "requirements": [
+        "Relevant experience required"
+      ],
+      "posting_type": "Internal",
+      "real_data": true
+    },
+    {
+      "job_id": 137433,
+      "title": "Contract Analyst",
+      "agency": "DEPT OF HEALTH/MENTAL HYGIENE",
+      "category": "Finance, Accounting, & Procurement",
+      "salary_range": "$50,598 - $85,053",
+      "requirements": [
+        "experience in procurement",
+        "experience in contract"
+      ],
+      "posting_type": "Internal",
+      "real_data": true
+    },
+    {
+      "job_id": 171040,
+      "title": "Clerical Associate, Bureau of Communicable Diseases",
+      "agency": "DEPT OF HEALTH/MENTAL HYGIENE",
+      "category": "Clerical & Administrative Support",
+      "salary_range": "$32,086 - $51,981",
+      "requirements": [
+        "Relevant experience required"
+      ],
+      "posting_type": "Internal",
+      "real_data": true
+    },
+    {
+      "job_id": 192756,
+      "title": "Systems Administrator - Computer Software",
+      "agency": "DEPARTMENT OF TRANSPORTATION",
+      "category": "Information Technology & Telecommunications",
+      "salary_range": "$81,290 - $114,954",
+      "requirements": [
+        "masters degree",
+        "experience in local"
+      ],
+      "posting_type": "Internal",
+      "real_data": true
+    },
+    {
+      "job_id": 192756,
+      "title": "Systems Administrator - Computer Software",
+      "agency": "DEPARTMENT OF TRANSPORTATION",
+      "category": "Information Technology & Telecommunications",
+      "salary_range": "$81,290 - $114,954",
+      "requirements": [
+        "masters degree",
+        "experience in local"
+      ],
+      "posting_type": "External",
+      "real_data": true
+    },
+    {
+      "job_id": 376620,
+      "title": "Enviromental Assessment Coordinator",
+      "agency": "DEPT OF DESIGN & CONSTRUCTION",
+      "category": "Engineering, Architecture, & Planning",
+      "salary_range": "$65,783 - $95,270",
+      "requirements": [
+        "masters degree",
+        "experience in supervising",
+        "experience in project"
+      ],
+      "posting_type": "External",
+      "real_data": true
+    },
+    {
+      "job_id": 376620,
+      "title": "Enviromental Assessment Coordinator",
+      "agency": "DEPT OF DESIGN & CONSTRUCTION",
+      "category": "Engineering, Architecture, & Planning",
+      "salary_range": "$65,783 - $95,270",
+      "requirements": [
+        "masters degree",
+        "experience in supervising",
+        "experience in project"
+      ],
+      "posting_type": "Internal",
+      "real_data": true
+    }
+  ],
+  "matching_examples": [
+    {
+      "job_title": "CERTIFIED IT ADMINISTRATOR (WAN), Level 4",
+      "job_agency": "NYC EMPLOYEES RETIREMENT SYS",
+      "candidate_category": "description - Role & Responsibilities: - Application Engineering / Pre Sales & Inside Sales \u00e2\u0080\u00a2 Provide applications support to inside sales personnel and outside sales channels",
+      "match_score": 0.8889937227706062,
+      "matched_skills": [
+        "Management"
+      ],
+      "salary_match": "Within range"
+    },
+    {
+      "job_title": "CERTIFIED IT ADMINISTRATOR (WAN), Level 4",
+      "job_agency": "NYC EMPLOYEES RETIREMENT SYS",
+      "candidate_category": "Role & Responsibilities: - Proposal/Estimation Engineering & Products Costing \u00e2\u0080\u00a2 Review and receive the RFQs for company products and solutions.",
+      "match_score": 0.8489237849214613,
+      "matched_skills": [
+        "Experience",
+        "Communication"
+      ],
+      "salary_match": "Negotiable"
+    },
+    {
+      "job_title": "Deputy Director, Audits and Accounts",
+      "job_agency": "DEPT OF INFO TECH & TELECOMM",
+      "candidate_category": "Mechanical Engineer",
+      "match_score": 0.8490586156132802,
+      "matched_skills": [
+        "Experience",
+        "Communication"
+      ],
+      "salary_match": "Negotiable"
+    },
+    {
+      "job_title": "Application Support Reporting Specialist",
+      "job_agency": "DEPT OF INFO TECH & TELECOMM",
+      "candidate_category": "Mechanical Engineer",
+      "match_score": 0.706811685027929,
+      "matched_skills": [
+        "Experience",
+        "Communication"
+      ],
+      "salary_match": "Within range"
+    },
+    {
+      "job_title": "GIS Analyst",
+      "job_agency": "DEPT OF INFO TECH & TELECOMM",
+      "candidate_category": "description - Role & Responsibilities: - Application Engineering / Pre Sales & Inside Sales \u00e2\u0080\u00a2 Provide applications support to inside sales personnel and outside sales channels",
+      "match_score": 0.921527584900574,
+      "matched_skills": [
+        "Management"
+      ],
+      "salary_match": "Negotiable"
+    }
+  ],
+  "query_examples": [
+    {
+      "description": "Find all Java developers",
+      "sparql": "SELECT ?jobSeeker ?skills WHERE {\n    ?jobSeeker rdf:type :JobSeeker ;\n               :hasSkill ?skills .\n    FILTER(CONTAINS(?skills, \"Java\"))\n}",
+      "expected_results": "137 job seekers with Java skills",
+      "sample_result": "JobSeeker_123 with skills: [Java, Spring, SQL]"
+    },
+    {
+      "description": "Find high-paying government positions",
+      "sparql": "SELECT ?job ?title ?salary WHERE {\n    ?job rdf:type :JobOpportunity ;\n         :jobTitle ?title ;\n         :maxSalary ?salary .\n    FILTER(?salary > 100000)\n}",
+      "expected_results": "190 positions found",
+      "sample_result": "EXECUTIVE DIRECTOR, BUSINESS DEVELOPMENT"
+    }
+  ],
+  "ontology_stats": {
+    "total_triples": 40065,
+    "class_instances": {
+      "JobSeeker": 4597,
+      "JobOpportunity": 2946,
+      "Organization": 52,
+      "Skill": 61,
+      "JobCategory": 131,
+      "Location": 226
+    },
+    "property_usage": {
+      "hasSkill": 13791,
+      "offeredBy": 2946,
+      "hasRequirement": 5892,
+      "locatedIn": 2946,
+      "hasSalaryRange": 2946
+    },
+    "inference_examples": [
+      {
+        "rule": "If JobSeeker hasSkill Python AND Job requires Python THEN suitable match",
+        "instances": "209 Python developers"
+      },
+      {
+        "rule": "If Job salary > 80000 THEN SeniorPosition",
+        "instances": "1542 senior positions"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "Real data from UpdatedResumeDataSet.csv and nyc-jobs.csv",
+    "resume_count": 4597,
+    "job_count": 2946,
+    "generation_method": "Direct extraction from cleaned datasets",
+    "no_simulation": true
+  }
+}

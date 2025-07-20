@@ -1,0 +1,291 @@
+{
+  "entities": {
+    "JobSeeker": {
+      "properties": [
+        "id",
+        "profile",
+        "qualifications",
+        "preferences"
+      ],
+      "count": 4597,
+      "source": "resume_records",
+      "description": "Individuals seeking employment"
+    },
+    "JobOpportunity": {
+      "properties": [
+        "id",
+        "title",
+        "description",
+        "requirements",
+        "compensation"
+      ],
+      "count": 2946,
+      "source": "job_records",
+      "description": "Available job positions"
+    },
+    "JobAgency": {
+      "instances": [
+        "DEPARTMENT OF BUSINESS SERV.",
+        "NYC HOUSING AUTHORITY",
+        "DEPT OF HEALTH/MENTAL HYGIENE",
+        "DEPT OF ENVIRONMENT PROTECTION",
+        "LAW DEPARTMENT",
+        "DEPT OF INFO TECH & TELECOMM",
+        "NYC EMPLOYEES RETIREMENT SYS",
+        "OFFICE OF COLLECTIVE BARGAININ",
+        "ADMIN FOR CHILDREN'S SVCS",
+        "DEPARTMENT OF TRANSPORTATION",
+        "POLICE DEPARTMENT",
+        "OFFICE OF MANAGEMENT & BUDGET",
+        "BOARD OF CORRECTION",
+        "TAXI & LIMOUSINE COMMISSION",
+        "DEPARTMENT OF PROBATION",
+        "BUSINESS INTEGRITY COMMISSION",
+        "CIVILIAN COMPLAINT REVIEW BD",
+        "DEPARTMENT OF INVESTIGATION",
+        "OFFICE OF THE COMPTROLLER",
+        "MANHATTAN COMMUNITY BOARD #8"
+      ],
+      "count": 52,
+      "source": "job_Agency",
+      "description": "Categories from job Agency"
+    },
+    "JobPostingType": {
+      "instances": [
+        "Internal",
+        "External"
+      ],
+      "count": 2,
+      "source": "job_Posting Type",
+      "description": "Categories from job Posting Type"
+    },
+    "JobLevel": {
+      "instances": [
+        "1",
+        "M3",
+        "0",
+        "3",
+        "2",
+        "4",
+        "M1",
+        "M7",
+        "M2",
+        "M4",
+        "M5",
+        "4B",
+        "M6",
+        "4A"
+      ],
+      "count": 14,
+      "source": "job_Level",
+      "description": "Categories from job Level"
+    },
+    "JobJobCategory": {
+      "instances": [
+        "Maintenance & Operations",
+        "Finance, Accounting, & Procurement",
+        "Health Public Safety, Inspections, & Enforcement",
+        "Engineering, Architecture, & Planning",
+        "Clerical & Administrative Support",
+        "Information Technology & Telecommunications",
+        "Finance, Accounting, & Procurement Information Technology & Telecommunications",
+        "Community & Business Services",
+        "Clerical & Administrative Support Legal",
+        "Clerical & Administrative Support Community & Business Services",
+        "Social Services",
+        "Engineering, Architecture, & Planning Maintenance & Operations",
+        "Health",
+        "Clerical & Administrative Support Policy & Analysis",
+        "Community & Business Services Social Services",
+        "Public Safety, Inspections, & Enforcement",
+        "Legal",
+        "Policy & Analysis Social Services",
+        "Information Technology & Telecommunications Policy & Analysis Social Services",
+        "Legal Policy & Analysis"
+      ],
+      "count": 130,
+      "source": "job_Job Category",
+      "description": "Categories from job Job Category"
+    },
+    "JobFull-Time/Part-Timeindicator": {
+      "instances": [
+        "F",
+        "P"
+      ],
+      "count": 2,
+      "source": "job_Full-Time/Part-Time indicator",
+      "description": "Categories from job Full-Time/Part-Time indicator"
+    },
+    "JobSalaryFrequency": {
+      "instances": [
+        "Annual",
+        "Hourly",
+        "Daily"
+      ],
+      "count": 3,
+      "source": "job_Salary Frequency",
+      "description": "Categories from job Salary Frequency"
+    },
+    "JobHours/Shift": {
+      "instances": [
+        "35 Hours per week/Day shift",
+        "Monday through Friday  9;00 am - 5:00 pm",
+        "Day",
+        "Hours:  17 hours per week when school is in session, or 35 hours per week during the summer vacation.                         Shift:    Weekdays/minimum three (3) mornings per week.",
+        "Due to the necessary duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings.",
+        "Day - Due to the necessary technical support duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings.",
+        "Due to the necessary technical support duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings.",
+        "Day - Due to the necessary technical management duties of this position in a 24/7 operation, candidate may be required to be on call and/or work various shifts such as weekends and/or nights/evenings.",
+        "Due to the necessary duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings. It is anticipated that this position will start as an evening Call Center Manager position.",
+        "35 hours per week.",
+        "Monday - Friday 9:00 a.m. - 5:00 p.m.",
+        "This is a full time position of 35 hours per week.",
+        "Monday through Friday, 35 hours per week",
+        "This is a Full Time position of 35 hours per week.",
+        "35 Hours/ 9 am to 5 pm",
+        "35hrs",
+        "35 hours per week",
+        "9 am to 5 pm  Monday through Friday",
+        "35 hours per week / day",
+        "40 hours per week / day"
+      ],
+      "count": 181,
+      "source": "job_Hours/Shift",
+      "description": "Categories from job Hours/Shift"
+    },
+    "JobPostUntil": {
+      "instances": [
+        "2020-12-11T00:00:00.000",
+        "2020-01-08T00:00:00.000",
+        "2020-01-15T00:00:00.000",
+        "2020-03-31T00:00:00.000",
+        "2020-01-16T00:00:00.000",
+        "2020-01-14T00:00:00.000",
+        "2020-03-13T00:00:00.000",
+        "2019-12-27T00:00:00.000",
+        "2020-03-30T00:00:00.000",
+        "2020-01-13T00:00:00.000",
+        "2020-04-25T00:00:00.000",
+        "2019-12-21T00:00:00.000",
+        "2020-01-06T00:00:00.000",
+        "2020-01-10T00:00:00.000",
+        "2020-01-11T00:00:00.000",
+        "2019-12-20T00:00:00.000",
+        "2019-12-24T00:00:00.000",
+        "2020-01-23T00:00:00.000",
+        "2020-01-26T00:00:00.000",
+        "2020-02-24T00:00:00.000"
+      ],
+      "count": 105,
+      "source": "job_Post Until",
+      "description": "Categories from job Post Until"
+    }
+  },
+  "relationships": [
+    [
+      "JobSeeker",
+      "appliesTo",
+      "JobOpportunity"
+    ],
+    [
+      "JobOpportunity",
+      "offeredBy",
+      "JobAgency"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobAgency"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobPostingType"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobLevel"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobJobCategory"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobFull-Time/Part-Timeindicator"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobSalaryFrequency"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobHours/Shift"
+    ],
+    [
+      "JobOpportunity",
+      "hasAttribute",
+      "JobPostUntil"
+    ]
+  ],
+  "data_structure": {
+    "resume": {
+      "categorical_columns": [
+        "Category"
+      ],
+      "numerical_columns": [],
+      "text_columns": [
+        "Resume"
+      ],
+      "identifier_columns": []
+    },
+    "job": {
+      "categorical_columns": [
+        "Agency",
+        "Posting Type",
+        "Business Title",
+        "Civil Service Title",
+        "Title Code No",
+        "Level",
+        "Job Category",
+        "Full-Time/Part-Time indicator",
+        "Salary Frequency",
+        "Work Location",
+        "Division/Work Unit",
+        "Hours/Shift",
+        "Work Location 1",
+        "Posting Date",
+        "Post Until",
+        "Posting Updated",
+        "Process Date"
+      ],
+      "numerical_columns": [
+        "# Of Positions",
+        "Salary Range From",
+        "Salary Range To"
+      ],
+      "text_columns": [
+        "Job Description",
+        "Minimum Qual Requirements",
+        "Preferred Skills",
+        "Additional Information",
+        "To Apply"
+      ],
+      "identifier_columns": [
+        "Job ID",
+        "Residency Requirement"
+      ]
+    }
+  },
+  "metadata": {
+    "approach": "adaptive_task_based",
+    "entities_count": 10,
+    "relationships_count": 10,
+    "task_focus": "job_matching"
+  }
+}

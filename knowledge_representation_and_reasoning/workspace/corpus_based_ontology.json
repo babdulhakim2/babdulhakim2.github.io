@@ -1,0 +1,504 @@
+{
+  "entities": {
+    "General": [
+      "pvt description",
+      "description",
+      "construction",
+      "accredited",
+      "business",
+      "team",
+      "described",
+      "new york",
+      "excellent",
+      "year",
+      "services",
+      "engineering",
+      "work",
+      "google cloud",
+      "development",
+      "data",
+      "india",
+      "project",
+      "client",
+      "strong",
+      "city",
+      "working",
+      "city with",
+      "testing",
+      "sql",
+      "details",
+      "maharashtra",
+      "years",
+      "related",
+      "test",
+      "time",
+      "york",
+      "new",
+      "using",
+      "pvt"
+    ],
+    "Skill": [
+      "skilled in managing end to end development and software products projects from inception requirement specs planning designing implementation configuration and documentation",
+      "experience in performance tuning using sql profiler",
+      "ability",
+      "skills",
+      "experience",
+      "knowledge",
+      "experience in cloud based environment like google cloud",
+      "experience in relational platforms like mysql oracle"
+    ],
+    "Organization": [
+      "city the external connectivity between the nycers locations to internet service providers isp to telephone companies and to other nyc agencies and the fiber channel ficon and fiber channel over ip fcip connections to the disk storage array san and the virtual tape library vtl oversees the configuration allocation and utilization of disk on the san and the vtl responsibilities include the planning design installation configuration testing troubleshooting maintenance capacity monitoring bandwidth monitoring security and support of all applicable devices systems and components manages vendor services service engagements adherence to service level agreements and the completion of work by the commitment dates develops and documents standard operating procedures standards and utilities for administration management monitoring modification and troubleshooting of the voice network the data network monitors capacity and bandwidth utilization to establish trends and project needs and growth forecasts serves as the in house expert and authority regarding network communications and connectivity issues",
+      "public and non public schools in new york city services to students include case management of chronic health problems preventive health screening urgent care medication administration preventive counseling reproductive health services health education referral for care and assurance of ongoing effective treatment osh has been the provider of public health services for",
+      "state and federal revenues maintaining and reconciling agency bank accounts payment of nearly",
+      "microsoft active directory microsoft exchange microsoft system center microsoft windows server and other applications in the agency by providing installation maintenance troubleshooting security administration account supervision and resolution of software and hardware issues as well as develops new system designs under the direction of the unit head with wide latitude in exercising of independent initiative and judgment the systems administrator duties will include but are not limited to install configure monitor maintain system backups rotations policies file archiving vm backups content indexing de duplication virtual physical tape libraries and media access servers secure maintain troubleshoot administer and upgrade microsoft windows server operating systems with all required server roles on assigned servers install secure maintain troubleshoot administer supervise user activities and upgrade microsoft active directory install secure maintain troubleshoot administer manage users and upgrade microsoft exchange including exchange mail stores install secure maintain troubleshoot administer manage users and upgrade other enterprise applications and systems as assigned participate in developing and maintaining backup and recovery procedures and processes adhere a change management procedures for changes made in the production environment assist other system administrators as needed resolve help desk tickets as assigned",
+      "city department of transportation",
+      "microsoft office programs and call center technologies recommend improved business processes and operational efficiencies develop project plans and detailed documentation establish and maintain cooperative relationships with executive management and support teams concerning implementation and coordination of call center services conduct meetings and presentations utilize automated systems social media tools and business intelligence applications to support data driven strategies serve as a liaison on behalf of",
+      "company",
+      "public health and the environment by supplying clean drinking water collecting and treating wastewater and reducing air noise and hazardous material pollution the scale of our organization is unmatched by any other water utility in the nation",
+      "city state and federal agencies to comply with regulatory requirements the deputy commissioner will also be responsible for working with three other major dep operating bureaus water supply water sewer operations and engineering design and construction to ensure that dep optimizes its resources and impact through internal collaboration and strategic planning the deputy commissioner must also be effective in working with consultants city agencies and executives and other external stakeholders to ensure that all bureau of wastewater treatment programs are understood and effectively implemented the deputy commissioner position requires excellent leadership communication and presentation skills as well as passion for driving innovation continuous improvement and efficiency and implementing workforce strategies to recruit develop and retain the most qualified and diverse talent in wastewater operations nationwide this position requires leadership and visibility nationally in promoting industry best practices and collaborating with industry peers and associations"
+    ],
+    "Description": [
+      "public meetings where facilities and service issues are addressed"
+    ],
+    "Process": [
+      "management",
+      "public health and environmental operation in the most amazing city in the country dep"
+    ],
+    "Education": [
+      "college",
+      "education",
+      "education details",
+      "degree"
+    ],
+    "Role": [
+      "state of good repair and planning future upgrades will be of tremendous importance in this role the deputy commissioner will work collaboratively with the executive team to develop and implement innovative solutions to more effectively manage storm water protect critical infrastructure from sea level rise and address the other challenges posed by climate change dep is one of the largest users of energy in the city the deputy commissioner will be responsible for realizing substantial reductions in energy consumption by employing innovative processes including the reuse of methane gas in addition the deputy commissioner will be responsible for making final recommendations to the commissioner concerning extremely complex technical and often controversial programs concerning federal and state water quality based programs and permits and for"
+    ],
+    "Technology": [
+      "city wide financial management system fms",
+      "application"
+    ],
+    "Location": [
+      "public buildings structures and the equipment they contain perform related work responsibilities include but are not limited to the following",
+      "microsoft word microsoft excel microsoft powerpoint recognition academic secured first place in b tech education details"
+    ],
+    "Person": [
+      "city of new york and the city employees"
+    ]
+  },
+  "relationships": [
+    [
+      "Person",
+      "has",
+      "Skill"
+    ],
+    [
+      "Person",
+      "seeks",
+      "Role"
+    ],
+    [
+      "Person",
+      "attained",
+      "Education"
+    ],
+    [
+      "Role",
+      "requires",
+      "Skill"
+    ],
+    [
+      "Role",
+      "offered_by",
+      "Organization"
+    ],
+    [
+      "Role",
+      "located_in",
+      "Location"
+    ],
+    [
+      "Role",
+      "demands",
+      "Requirement"
+    ],
+    [
+      "Organization",
+      "posts",
+      "Role"
+    ],
+    [
+      "Skill",
+      "applied_in",
+      "Technology"
+    ],
+    [
+      "Education",
+      "provides",
+      "Skill"
+    ]
+  ],
+  "concepts": {
+    "resume_concepts": {
+      "top_terms": [
+        [
+          "company",
+          303.63272124392296
+        ],
+        [
+          "description",
+          284.50973215137185
+        ],
+        [
+          "project",
+          172.8734823262377
+        ],
+        [
+          "data",
+          141.86139889754529
+        ],
+        [
+          "management",
+          127.84609215340959
+        ],
+        [
+          "team",
+          124.71095978639016
+        ],
+        [
+          "details",
+          121.97532402267356
+        ],
+        [
+          "skills",
+          110.6541879530572
+        ],
+        [
+          "test",
+          104.39473040633872
+        ],
+        [
+          "pvt",
+          98.507470574611
+        ],
+        [
+          "development",
+          86.40097402848632
+        ],
+        [
+          "work",
+          86.27100326327837
+        ],
+        [
+          "services",
+          82.60213968815764
+        ],
+        [
+          "pvt description",
+          81.32858275204363
+        ],
+        [
+          "client",
+          78.76983092663298
+        ],
+        [
+          "education",
+          78.76742614368183
+        ],
+        [
+          "maharashtra",
+          78.7192956812765
+        ],
+        [
+          "education details",
+          76.21022371690027
+        ],
+        [
+          "business",
+          75.85934134483549
+        ],
+        [
+          "using",
+          75.02620124875529
+        ],
+        [
+          "india",
+          74.7401642923172
+        ],
+        [
+          "application",
+          74.57584257968941
+        ],
+        [
+          "testing",
+          74.03867909867196
+        ],
+        [
+          "sql",
+          73.97508655682495
+        ],
+        [
+          "working",
+          71.99238851475411
+        ]
+      ],
+      "domain_patterns": [
+        [
+          "skilled in managing end to end development and software products projects from inception requirement specs planning designing implementation configuration and documentation",
+          7
+        ],
+        [
+          "experience in relational platforms like mysql oracle",
+          6
+        ],
+        [
+          "experience in cloud based environment like google cloud",
+          6
+        ],
+        [
+          "google cloud",
+          6
+        ],
+        [
+          "experience in performance tuning using sql profiler",
+          4
+        ],
+        [
+          "microsoft word microsoft excel microsoft powerpoint recognition academic secured first place in b tech education details",
+          4
+        ]
+      ],
+      "topics": [
+        {
+          "topic": "technical",
+          "score": 107
+        },
+        {
+          "topic": "education",
+          "score": 88
+        },
+        {
+          "topic": "management",
+          "score": 21
+        },
+        {
+          "topic": "legal",
+          "score": 10
+        },
+        {
+          "topic": "operations",
+          "score": 6
+        }
+      ],
+      "corpus_name": "Resume",
+      "document_count": 4597
+    },
+    "job_concepts": {
+      "top_terms": [
+        [
+          "experience",
+          801.6097760943861
+        ],
+        [
+          "skills",
+          477.1107776378689
+        ],
+        [
+          "years",
+          405.1514195847817
+        ],
+        [
+          "ability",
+          400.02914947466377
+        ],
+        [
+          "work",
+          350.96959978941203
+        ],
+        [
+          "new",
+          328.8737168153621
+        ],
+        [
+          "management",
+          317.6000787850865
+        ],
+        [
+          "city",
+          315.56375698973113
+        ],
+        [
+          "year",
+          292.832926196507
+        ],
+        [
+          "project",
+          282.7569642741856
+        ],
+        [
+          "accredited",
+          278.5435411174999
+        ],
+        [
+          "new york",
+          278.4683512979669
+        ],
+        [
+          "york",
+          278.4683512979669
+        ],
+        [
+          "engineering",
+          273.25994135484586
+        ],
+        [
+          "college",
+          271.1777189581578
+        ],
+        [
+          "education",
+          267.58350492293397
+        ],
+        [
+          "knowledge",
+          265.0056226519259
+        ],
+        [
+          "data",
+          255.3599150401172
+        ],
+        [
+          "degree",
+          255.01299594513412
+        ],
+        [
+          "time",
+          252.498737324371
+        ],
+        [
+          "strong",
+          249.90701973765792
+        ],
+        [
+          "related",
+          246.99263761621913
+        ],
+        [
+          "described",
+          246.33375294207946
+        ],
+        [
+          "construction",
+          243.19651407358026
+        ],
+        [
+          "excellent",
+          242.34874556996627
+        ]
+      ],
+      "domain_patterns": [
+        [
+          "public and non public schools in new york city services to students include case management of chronic health problems preventive health screening urgent care medication administration preventive counseling reproductive health services health education referral for care and assurance of ongoing effective treatment osh has been the provider of public health services for",
+          4
+        ],
+        [
+          "state and federal revenues maintaining and reconciling agency bank accounts payment of nearly",
+          4
+        ],
+        [
+          "city wide financial management system fms",
+          4
+        ],
+        [
+          "public buildings structures and the equipment they contain perform related work responsibilities include but are not limited to the following",
+          2
+        ],
+        [
+          "city the external connectivity between the nycers locations to internet service providers isp to telephone companies and to other nyc agencies and the fiber channel ficon and fiber channel over ip fcip connections to the disk storage array san and the virtual tape library vtl oversees the configuration allocation and utilization of disk on the san and the vtl responsibilities include the planning design installation configuration testing troubleshooting maintenance capacity monitoring bandwidth monitoring security and support of all applicable devices systems and components manages vendor services service engagements adherence to service level agreements and the completion of work by the commitment dates develops and documents standard operating procedures standards and utilities for administration management monitoring modification and troubleshooting of the voice network the data network monitors capacity and bandwidth utilization to establish trends and project needs and growth forecasts serves as the in house expert and authority regarding network communications and connectivity issues",
+          2
+        ],
+        [
+          "city of new york and the city employees",
+          2
+        ],
+        [
+          "microsoft office programs and call center technologies recommend improved business processes and operational efficiencies develop project plans and detailed documentation establish and maintain cooperative relationships with executive management and support teams concerning implementation and coordination of call center services conduct meetings and presentations utilize automated systems social media tools and business intelligence applications to support data driven strategies serve as a liaison on behalf of",
+          2
+        ],
+        [
+          "microsoft active directory microsoft exchange microsoft system center microsoft windows server and other applications in the agency by providing installation maintenance troubleshooting security administration account supervision and resolution of software and hardware issues as well as develops new system designs under the direction of the unit head with wide latitude in exercising of independent initiative and judgment the systems administrator duties will include but are not limited to install configure monitor maintain system backups rotations policies file archiving vm backups content indexing de duplication virtual physical tape libraries and media access servers secure maintain troubleshoot administer and upgrade microsoft windows server operating systems with all required server roles on assigned servers install secure maintain troubleshoot administer supervise user activities and upgrade microsoft active directory install secure maintain troubleshoot administer manage users and upgrade microsoft exchange including exchange mail stores install secure maintain troubleshoot administer manage users and upgrade other enterprise applications and systems as assigned participate in developing and maintaining backup and recovery procedures and processes adhere a change management procedures for changes made in the production environment assist other system administrators as needed resolve help desk tickets as assigned",
+          2
+        ],
+        [
+          "city department of transportation",
+          2
+        ],
+        [
+          "public health and environmental operation in the most amazing city in the country dep",
+          2
+        ],
+        [
+          "public health and the environment by supplying clean drinking water collecting and treating wastewater and reducing air noise and hazardous material pollution the scale of our organization is unmatched by any other water utility in the nation",
+          2
+        ],
+        [
+          "city with",
+          2
+        ],
+        [
+          "state of good repair and planning future upgrades will be of tremendous importance in this role the deputy commissioner will work collaboratively with the executive team to develop and implement innovative solutions to more effectively manage storm water protect critical infrastructure from sea level rise and address the other challenges posed by climate change dep is one of the largest users of energy in the city the deputy commissioner will be responsible for realizing substantial reductions in energy consumption by employing innovative processes including the reuse of methane gas in addition the deputy commissioner will be responsible for making final recommendations to the commissioner concerning extremely complex technical and often controversial programs concerning federal and state water quality based programs and permits and for",
+          2
+        ],
+        [
+          "public meetings where facilities and service issues are addressed",
+          2
+        ],
+        [
+          "city state and federal agencies to comply with regulatory requirements the deputy commissioner will also be responsible for working with three other major dep operating bureaus water supply water sewer operations and engineering design and construction to ensure that dep optimizes its resources and impact through internal collaboration and strategic planning the deputy commissioner must also be effective in working with consultants city agencies and executives and other external stakeholders to ensure that all bureau of wastewater treatment programs are understood and effectively implemented the deputy commissioner position requires excellent leadership communication and presentation skills as well as passion for driving innovation continuous improvement and efficiency and implementing workforce strategies to recruit develop and retain the most qualified and diverse talent in wastewater operations nationwide this position requires leadership and visibility nationally in promoting industry best practices and collaborating with industry peers and associations",
+          2
+        ]
+      ],
+      "topics": [
+        {
+          "topic": "operations",
+          "score": 348
+        },
+        {
+          "topic": "management",
+          "score": 264
+        },
+        {
+          "topic": "technical",
+          "score": 227
+        },
+        {
+          "topic": "legal",
+          "score": 181
+        },
+        {
+          "topic": "health",
+          "score": 100
+        }
+      ],
+      "corpus_name": "Job",
+      "document_count": 8382
+    }
+  },
+  "data_sources": {
+    "resume_text_columns": [
+      "Resume"
+    ],
+    "job_text_columns": [
+      "Job Description",
+      "Minimum Qual Requirements",
+      "Preferred Skills"
+    ]
+  },
+  "metadata": {
+    "approach": "adaptive_corpus_based",
+    "resume_documents": 4597,
+    "job_documents": 2946,
+    "total_entities": 10,
+    "total_relationships": 10
+  }
+}
