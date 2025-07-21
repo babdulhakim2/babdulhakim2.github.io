@@ -1,0 +1,437 @@
+# Knowledge Representation and Reasoning Units Data
+# This file contains all the information for Knowledge Representation and Reasoning units to be displayed on the site
+
+- unit_number: "1"
+  title: "Unit 1: Introduction to Knowledge Representation and Reasoning"
+  description: "This week focuses on introduction to and background of Knowledge Representation and Reasoning, covering introductory chapters and background material."
+  content: |
+    <h4>1.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Knowledge Representation:</strong> Methods for encoding knowledge in a form that machines can process</li>
+      <li><strong>Reasoning:</strong> Computational processes for deriving new knowledge from existing knowledge</li>
+      <li><strong>Symbolic vs. Subsymbolic approaches:</strong> Different paradigms for representing knowledge</li>
+      <li><strong>Knowledge-based systems:</strong> Systems that use explicit knowledge representation for problem solving</li>
+    </ul>
+
+    <h4>1.2 Learning Outcomes</h4>
+    <ul>
+      <li>Understanding fundamental concepts of knowledge representation</li>
+      <li>Identifying different approaches to reasoning in AI systems</li>
+      <li>Recognizing the challenges in knowledge representation</li>
+      <li>Appreciating the role of KRR in artificial intelligence</li>
+    </ul>
+
+    <h4>1.3 Reflection Notes</h4>
+    <p>Reading Marquis, Papini and Prade (2020) expreses how KR isn't just about computers - it's been around since humans started drawing on cave walls with rocks. The journey from Aristotle's logic to modern AI systems is basically the same human need to get knowledge out of our heads and make it useful. It is interesting that we're still asking the same questions Aristotle did: How do we organize what we know?</p>
+
+    <p>The Weststeijn (2011) discussion really clicked with this historical perspective. Those Dutch scholars trying to create universal picture languages weren't doing something new, they were continuing what humans have always done, from tally stones to hieroglyphs. Delgrande et al. (2023) are right that the challenges haven't really changed, we've just got better tools now. It made me think about how the ontologies we'll build in Protégé are just the latest chapter in this ancient story.</p>
+  references: |
+    <ol>
+      <li>Marquis, P., Papini, O. and Prade, H. (2020) <em>A Guided Tour of Artificial Intelligence Research: Volume I: Knowledge Representation, Reasoning and Learning</em>. Switzerland: Springer. Pages 1-43.</li>
+      <li>Delgrande, J.P. et al. (2023) 'Current and Future Challenges in Knowledge Representation and Reasoning', <em>Dagstuhl Manifestos</em>, 1(1), pp. 1–58. Chapters 1 and 2.</li>
+      <li>Giunchiglia, F. et al. (2024) 'From Knowledge Representation to Knowledge Organization and Back', <em>Wisdom, Well-Being, Win-Win</em>, pp. 270–287.</li>
+      <li>Weststeijn, T. (2011). From hieroglyphs to universal characters: Pictography in the early modern Netherlands. <em>Netherlands Yearbook for History of Art</em>, 61(1), 238–281.</li>
+    </ol>
+  artifacts:
+    - title: "Collaborative Discussion 1"
+      url: "/krr/unit1/discussion"
+      description: "Discussion on Weststeijn (2011) paper and KRR fundamentals"
+
+- unit_number: "2"
+  title: "Unit 2: Sets, Set Theory, Truth Tables and Logic"
+  description: "This unit introduces the underlying principles of reasoning: set theory, logic, and truth tables. Provides exercises for practicing manipulation of sets and truth tables."
+  content: |
+    <h4>2.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Set Theory:</strong> Mathematical study of collections of objects</li>
+      <li><strong>Truth Tables:</strong> Tables showing all possible truth values for logical expressions</li>
+      <li><strong>Boolean Logic:</strong> Logical operations including AND, OR, NOT</li>
+      <li><strong>Set Operations:</strong> Union, intersection, complement, and their logical equivalents</li>
+      <li><strong>Logic and Reasoning:</strong> How sets and truth tables relate to logical problem solving</li>
+    </ul>
+
+    <h4>2.2 Learning Outcomes</h4>
+    <ul>
+      <li>Describe the rules of set and truth table manipulation</li>
+      <li>Use sets to represent logic relationships</li>
+      <li>Use truth tables to resolve logic problems</li>
+      <li>Review sets and truth tables fundamentals</li>
+      <li>Discuss relationship between sets, truth tables, logic and reasoning</li>
+    </ul>
+
+    <h4>2.3 Reflection Notes</h4>
+    <p>Working through the truth tables in Sharma, Lo, and Pilling (2022) made the connection between sets and logic click for me. It's one thing to know that intersection is like AND, but actually building the truth tables shows why it works. The Boolean operations aren't just mathematical abstractions, they're the foundation of how computers think.</p>
+
+    <p> Endriss (2021) expresses how Prolog handles sets so naturally. When you write a rule like `member(X, [H|T])`, you're basically doing set theory without thinking about it. The exercises helped me see that the formal notation we learn is just a way to be precise about relationships we already understand intuitively. Makes me think about how much logic we use every day without realizing it's actually formal reasoning.</p>
+  references: |
+    <ol>
+      <li>Sharma, G., Lo, N. and Pilling, G. (2022) <em>Truth Tables</em>.</li>
+      <li>Endriss, U., (2021) <em>Lecture Notes An Introduction to Prolog Programming</em>. Chapters 1, 2, 3 and 4.</li>
+    </ol>
+  artifacts:
+    - title: "Set Theory and Truth Table Exercises"
+      url: "/krr/unit2/exercises"
+      description: "Practice exercises in set manipulation and truth table construction"
+    - title: "Collaborative Discussion 1 - Peer Responses"
+      url: "/krr/unit2/discussion-responses"
+      description: "Responses to peers in ongoing collaborative discussion"
+
+- unit_number: "3"
+  title: "Unit 3: Introduction to Reasoning"
+  description: "Explores the concept of reasoning and formal methods of reasoning as building blocks for knowledge representation and reasoning."
+  content: |
+    <h4>3.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Reasoning:</strong> The process of drawing logical conclusions from premises</li>
+      <li><strong>First-Order Logic (FOL):</strong> Formal system with quantifiers for representing and reasoning about knowledge</li>
+      <li><strong>Quantifiers:</strong> Universal (∀) and existential (∃) operators for logical statements</li>
+      <li><strong>Semantic Networks:</strong> Graph-based knowledge representation using nodes and links</li>
+      <li><strong>Frames:</strong> Data structures for representing knowledge about objects and situations</li>
+      <li><strong>Logic Programming:</strong> Programming paradigm using logical statements (Prolog, LISP)</li>
+    </ul>
+
+    <h4>3.2 Learning Outcomes</h4>
+    <ul>
+      <li>Explain what is meant by reasoning</li>
+      <li>Describe what is meant by FOL and what its quantifiers mean</li>
+      <li>Read, understand, and explain logic statements in selected programming languages</li>
+      <li>Discuss formal methods of reasoning as building blocks for KRR</li>
+    </ul>
+
+    <h4>3.3 Reflection Notes</h4>
+    <p>The lecture cast was insightful explaining ZFC axioms (empty set, separation, pairing, choice, infinity, power set, union) through to practical applications.Brachman and Levesque (2004) explained how horn clauses and modus ponens aren't just abstract concepts but actual tools that power Prolog's reasoning engine.</p>
+
+    <p>It is clear that from Lee (2024) to Minsky's frames from decades ago still influence modern knowledge representation. The progression from positional logic to FOL to semantic nets shows we're building on solid mathematical foundations making the connection between theory and practice much clearer.</p>
+  references: |
+    <ol>
+      <li>Brachman, R. and Levesque, H. (2004) <em>Knowledge Representation and Reasoning</em>. Germany: Elsevier Science. Chapters 2, 3, 4 and 5.</li>
+      <li>Lee, A., (2024) 'Knowledge Representation and Reasoning in AI: Analyzing Different Approaches to Knowledge Representation and Reasoning in Artificial Intelligence Systems', <em>Journal of Artificial Intelligence Research</em>, 4(1), pp.14-29.</li>
+    </ol>
+  artifacts:
+    - title: "Collaborative Discussion 1 - Summary Post"
+      url: "/krr/unit3/discussion-summary"
+      description: "Summary of collaborative discussion on knowledge representation foundations"
+
+- unit_number: "4"
+  title: "Unit 4: Introduction to Logic Programming"
+  description: "This unit introduces logic programming, essential to understanding formal methods such as first order logic. Provides experience writing, running, and evaluating Prolog programs."
+  content: |
+    <h4>4.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Logic Programming:</strong> Programming paradigm based on formal logic and first-order logic</li>
+      <li><strong>Prolog:</strong> Programming language that uses logical statements as executable programs</li>
+      <li><strong>Facts and Rules:</strong> Basic building blocks of Prolog programs</li>
+      <li><strong>Queries:</strong> Questions posed to Prolog programs to derive conclusions</li>
+      <li><strong>Unification:</strong> Pattern matching mechanism in Prolog</li>
+      <li><strong>Backtracking:</strong> Search strategy for finding multiple solutions</li>
+      <li><strong>Programming with FOL:</strong> How first-order logic translates to executable programs</li>
+    </ul>
+
+    <h4>4.2 Learning Outcomes</h4>
+    <ul>
+      <li>Create simple statements/programs in selected programming languages</li>
+      <li>Execute Prolog programmes in the online environment</li>
+      <li>Evaluate Prolog programmes</li>
+      <li>Review programming languages based on first order logic (FOL) and Set Theory</li>
+    </ul>
+
+    <h4>4.3 Reflection Notes</h4>
+    <p>Prolog felt backwards at first. Coming from procedural languages, writing `grandparent(X,Z) :- parent(X,Y), parent(Y,Z).` seemed counterintuitive,  you declare what's true rather than how to compute it. Working through the animal classification exercise helped, but debugging when rules don't behave as expected proved frustrating. Endriss (2021) chapters 5-6 provided structure, though the theoretical explanations didn't always match the actual implementation.</p>
+
+    <p>The unification mechanism from Ritchie (2002) eventually made sense, but backtracking still catches me off-guard. When queries return multiple solutions or fail unexpectedly, it's not always clear why. The logic programming exercises showed both the elegance and the brittleness of declarative approaches, it is powerful when it works, opaque when it doesn't.</p>
+  references: |
+    <ol>
+      <li>Endriss, U. (2021) <em>Lecture Notes An Introduction to Prolog Programming</em>. Chapters 5 and 6.</li>
+      <li>Ritchie, G. (2002) <em>Prolog Step-by-Step</em>.</li>
+      <li>SWI Prolog. (no date) <em>Prolog interpreter</em>.</li>
+      <li>Genesereth, M. (2023) <em>Prolog as a Knowledge Representation Language the Nature and Importance of Prolog</em>.</li>
+    </ol>
+  artifacts:
+    - title: "Prolog Programming Exercises"
+      url: "/krr/unit4/prolog-exercises"
+      description: "Simple Prolog programs and exercises demonstrating facts, rules, and queries"
+
+- unit_number: "5"
+  title: "Unit 5: Introduction to Modeling"
+  description: "Unit 5 focuses on understanding the concept of modeling and knowledge engineering. Explores how to design and create knowledge models, and how to use Protégé as a modeling tool."
+  content: |
+    <h4>5.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Knowledge Modeling:</strong> Creating structured representations of domain knowledge</li>
+      <li><strong>Knowledge Engineering:</strong> Systematic approach to building knowledge-based systems</li>
+      <li><strong>Formal Methods:</strong> Mathematical techniques for modeling complex systems</li>
+      <li><strong>Types of Models:</strong> Diagnostic models, explorative models, analytic models, constructive models</li>
+      <li><strong>Protégé:</strong> Tool for building knowledge models and ontologies</li>
+      <li><strong>Knowledge Acquisition:</strong> Process of extracting knowledge from domain experts</li>
+      <li><strong>Scientific Method:</strong> Systematic approach to knowledge discovery and validation</li>
+    </ul>
+
+    <h4>5.2 Learning Outcomes</h4>
+    <ul>
+      <li>Explain the principles of and approaches to knowledge engineering</li>
+      <li>Describe how to design and create knowledge models</li>
+      <li>Investigate the principles of knowledge engineering</li>
+      <li>Discuss the meaning of knowledge modeling and engineering</li>
+    </ul>
+
+    <h4>5.3 Reflection Notes</h4>
+    <p>Collins (1998) talks about formal methods and how they can be good solution to complex problems. Yun et al. (2021) breaks down the different model types clearly - diagnostic, explorative, analytic, constructive</p>
+
+    <p>The knowledge acquisition ties into the scientific method. The progression from RDF to ontologies to SWRL shows how modeling has evolved. Even statistical and probabilistic modeling fits into this bigger picture. It makes case for why we need tools like Protégé to handle all this complexity systematically</p>
+  references: |
+    <ol>
+      <li>Yun, W.et al. (2021) 'Knowledge modeling: A survey of processes and techniques', <em>International Journal of Intelligent Systems</em>, 36(4), pp.1686-1720.</li>
+      <li>El Khatib, M. M. et al. (2023) 'Dubai Smart City as a Knowledge Based Economy', <em>The Effect of Information Technology on Business and Marketing Intelligence Systems</em>, pp. 1657–1672.</li>
+      <li>Du, S. Q. et al. (2023) 'Tree-GPT: Modular Large Language Model Expert System For Forest Remote Sensing Image Understanding And Interactive Analysis', <em>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, pp. 1729–1736.</li>
+    </ol>
+  artifacts: []
+
+- unit_number: "6"
+  title: "Unit 6: Introduction to Ontology Building and Online and Offline Tools"
+  description: "This unit focuses on practical application of ontological approaches for developing knowledge-based systems. Applies knowledge gained so far via case study and hands-on Protégé work."
+  content: |
+    <h4>6.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Ontology Building:</strong> Practical development of formal knowledge structures</li>
+      <li><strong>Online vs Offline Tools:</strong> Different approaches to ontology development</li>
+      <li><strong>OWL Ontologies:</strong> Web Ontology Language for semantic web</li>
+      <li><strong>Protégé 5.5:</strong> Industry-standard tool for ontology development</li>
+      <li><strong>Knowledge-Based Systems:</strong> Systems built using ontological approaches</li>
+      <li><strong>Competency Questions:</strong> Questions that guide ontology development</li>
+      <li><strong>Semantic Reasoning:</strong> Drawing inferences from ontological structures</li>
+    </ul>
+
+    <h4>6.2 Learning Outcomes</h4>
+    <ul>
+      <li>Design and implement a knowledge-based system using software tools</li>
+      <li>Employ different ontology modelling approaches to develop knowledge-based systems</li>
+      <li>Apply the knowledge and skills to develop other knowledge-based solutions</li>
+      <li>Use knowledge representation and reasoning tools to design knowledge-based solutions</li>
+    </ul>
+
+    <h4>6.3 Reflection Notes</h4>
+    <p>Working through Debellis (2021) with Protégé 5.5 showed how OWL ontologies function in practice rather than just theory. The step-by-step approach helped me understand how competency questions drive the design process. Building knowledge-based systems connected concepts from previous units, though the complexity of the interface took time to navigate effectively.</p>
+
+    <p>Solanki (2019) describes knowledge engineering as both art and science, which became apparent through hands-on work. Different modeling approaches serve different purposes depending on domain requirements and user needs. The case study methodology demonstrated connections between ontology building and practical problem solving, though selecting appropriate modeling strategies remains challenging.</p>
+  references: |
+    <ol>
+      <li>Debellis, M. (2021) <em>A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins</em>.</li>
+      <li>Solanki, A (2019) <em>An Introduction to Knowledge Engineering</em>.</li>
+      <li>Ciroku, F. et al. (2024) 'RevOnt: Reverse Engineering of Competency Questions From Knowledge Graphs via Language Models'.</li>
+      <li>Demoly, F., Kim, K.-Y. and Horváth, I. (2019) 'Ontological Engineering for Supporting Semantic Reasoning in Design: Deriving Models Based on Ontologies for Supporting Engineering Design', <em>Journal of Engineering Design</em>.</li>
+    </ol>
+  artifacts: []
+
+- unit_number: "7"
+  title: "Unit 7: Knowledge Elicitation and Formalism"
+  description: "This unit focuses on concepts and principles of knowledge acquisition, and approaches to knowledge acquisition and formalism as steps in developing accurate and efficient knowledge-based systems."
+  content: |
+    <h4>7.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Knowledge Acquisition:</strong> Process of extracting knowledge from domain experts and sources</li>
+      <li><strong>Knowledge Elicitation:</strong> Specific techniques for capturing tacit knowledge</li>
+      <li><strong>Formalization:</strong> Converting informal knowledge into structured representations</li>
+      <li><strong>Knowledge-Based Systems:</strong> Systems built using acquired and formalized knowledge</li>
+    </ul>
+
+    <h4>7.2 Learning Outcomes</h4>
+    <ul>
+      <li>Understand the concept of knowledge acquisition</li>
+      <li>Appreciate the processes and techniques of acquiring knowledge</li>
+      <li>Develop awareness of issues around knowledge acquisition</li>
+      <li>Understand the concept of formalism and knowledge representation</li>
+    </ul>
+
+    <h4>7.3 Reflection Notes</h4>
+    <p>The lecture cast covered knowledge acquisition complexity, distinguishing between data, information, and knowledge in practical terms. Different knowledge types (declarative facts, procedural actions, meta-knowledge for expert decisions) require specific elicitation techniques like laddering, sorting, and matrix-based approaches. The structured nature of these methods became apparent when attempting to capture expert knowledge systematically.</p>
+
+    <p>Debellis (2021) provides practical guidance while Blagec et al.'s (2022) AI knowledge graph demonstrates large-scale implementation challenges. The formalization process of converting tacit knowledge into structured representations involves ontological commitments that can be difficult to validate. Knowledge engineering requires balancing technical implementation with domain expertise, though the boundaries between art and science remain unclear.</p>
+  references: |
+    <ol>
+      <li>Debellis, M. (2021) <em>A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins</em>.</li>
+      <li>Blagec, K.et al. (2022) 'A Curated, Ontology-Based, Large-Scale Knowledge Graph of Artificial Intelligence Tasks and Benchmarks', <em>Scientific Data</em>, 9(1), pp. 322.</li>
+      <li>Horridge, M. (2011) <em>A Practical Guide To Building OWL Ontologies Using Protégé 4 and CO-ODE Tools</em>.</li>
+      <li>Gavrilova, T. and Andreeva, T. (2012) 'Knowledge Elicitation Techniques in a Knowledge Management Context', <em>Journal of Knowledge Management</em>, 16(4), pp. 523-537.</li>
+    </ol>
+  artifacts:
+    - title: "ITO Case Study Report"
+      url: "/krr/assets/ito-case-study.pdf"
+      description: "Case study review on ITO applying knowledge elicitation and formalization concepts"
+
+- unit_number: "8"
+  title: "Unit 8: Modeling with Protégé"
+  description: "This unit focuses on equipping you with practical skills to design solutions for knowledge representation and reasoning problems using a systematic approach to exploring, understanding and extracting knowledge from data sources."
+  content: |
+    <h4>8.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Systematic Data Exploration:</strong> Methodical approach to understanding data sources</li>
+      <li><strong>Protégé Software Tool:</strong> Practical implementation environment for ontology development</li>
+      <li><strong>Knowledge Extraction:</strong> Techniques to derive knowledge from data for representation</li>
+      <li><strong>Step-by-Step Ontology Development:</strong> Structured process for building knowledge-based systems</li>
+    </ul>
+
+    <h4>8.2 Learning Outcomes</h4>
+    <ul>
+      <li>Apply a step-by-step process to developing an ontology</li>
+      <li>Understand the process of exploring and understanding data sources</li>
+      <li>Be aware of potential issues around data</li>
+      <li>Apply systematic approach to explore and understand data</li>
+      <li>Use Protégé software tool to explore data and develop solutions</li>
+    </ul>
+
+    <h4>8.3 Reflection Notes</h4>
+    <p>Working through Debellis (2021) Chapter 4 demonstrated Protégé development methodologies. The systematic approach to data exploration involves understanding data representation and meaningful structuring rather than simple data loading. Following Exercises 1-7 showed incremental development from basic classes to complex relationships, though the learning curve proved steeper than expected.</p>
+
+    <p>Data source understanding emerged as a prerequisite for effective ontology building. Issues around data quality, consistency, and completeness become apparent during knowledge formalization attempts. The systematic approach addresses these challenges, though without proper methodology, ontologies may inadequately represent their intended domains. The complexity of real-world data often exceeds theoretical frameworks.</p>
+  references: |
+    <ol>
+      <li>Debellis, M. (2021) <em>A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins</em>.</li>
+      <li>Tomaszuk, D. and Hyland-Wood, D. (2020) 'RDF 1.1: Knowledge Representation and Data Integration Language for the Web', <em>Symmetry</em>, 12(1), p. 84.</li>
+      <li>Nebel, B. (2015) 'Logics for Knowledge Representation', <em>International Encyclopedia of the Social & Behavioral Sciences</em>, 14(2), pp. 319-321.</li>
+      <li>Davis, R., Shrobe, H. and Szolovits, P. (2019) <em>What is a Knowledge Representation?</em></li>
+      <li>Sina, A. (2019) <em>Data modelling with RDF: A tutorial - What is RDF?</em></li>
+    </ol>
+  artifacts:
+    - title: "Unit 8 Formative Activity"
+      url: "/krr/unit8/formative-activity"
+      description: "Practical Protégé exercises following Debellis Chapter 4, Exercises 1-7"
+
+- unit_number: "9"
+  title: "Unit 9: Formalism Techniques and Applications"
+  description: "This unit continues with tutorials to equip you with practical skills to develop knowledge-based systems. It explores inferencing and reasoning using Protégé software through worked examples from case studies."
+  content: |
+    <h4>9.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Logic-Based Representation:</strong> Formal approach to knowledge representation using logical systems</li>
+      <li><strong>Description Logic (DL):</strong> Family of formal knowledge representation languages</li>
+      <li><strong>Inferencing and Reasoning:</strong> Drawing conclusions from ontology data models using Protégé tools</li>
+      <li><strong>Open World Assumption:</strong> Fundamental principle in knowledge representation and reasoning</li>
+    </ul>
+
+    <h4>9.2 Learning Outcomes</h4>
+    <ul>
+      <li>Develop understanding of reasoning languages</li>
+      <li>Develop capacity to interpret reasoning language</li>
+      <li>Learn to use Protégé tools to develop reasoning and inferencing capabilities</li>
+      <li>Apply concept of reasoning to make inferences from ontology data models</li>
+    </ul>
+
+    <h4>9.3 Reflection Notes</h4>
+    <p>The lecture cast covered logic-based representation and formal system complexity. Working with description logic (DL) demonstrated connections between McCarthy's AI formalization approach and current ontology development. Minsky's perspective highlighted the challenge of balancing flexibility with formal correctness, particularly since perfect completeness proves unattainable in real-world implementations.</p>
+
+    <p>Protégé reasoning tools provided concrete application of theoretical concepts. The Open World Assumption fundamentally alters the interpretation of "unknown" versus "false" information. Reasoning as inference from knowledge bases requires handling global and class consistency, emphasizing the necessity for precise definitions in logic systems and ontology-based rules, though this precision can limit practical flexibility.</p>
+  references: |
+    <ol>
+      <li>Debellis, M. (2021) <em>A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins</em>.</li>
+      <li>Brachman, R. and Levesque, H. (2004) <em>Knowledge Representation and Reasoning</em>. Germany: Elsevier Science. Chapter 3.</li>
+      <li>Harmelen, F V., Lifschitz, V. and Porter, B. (2008) <em>Handbook of Knowledge Representation</em>. Chapter 3.</li>
+      <li>Nasim, T. M. (2022) 'Improving Ontology Alignment Using Machine Learning Techniques', <em>ProQuest Dissertations & Theses</em>.</li>
+      <li>Kádár, B., Terkaj, W. and Sacco, M. (2013) 'Semantic Virtual Factory Supporting Interoperable Modelling and Evaluation of Production Systems', <em>CIRP Annals</em>, 62(1), pp. 443-446.</li>
+      <li>Brachman, R.J. and Schmolze, J.G. (1989) 'An overview of the KL-ONE knowledge representation system', <em>Readings in artificial intelligence and databases</em>, 9(2), pp. 207-230.</li>
+    </ol>
+  artifacts:
+    - title: "Collaborative Learning Discussion 2"
+      url: "/krr/unit9/discussion2"
+      description: "Three-week formative discussion exploring ontologies"
+
+- unit_number: "10"
+  title: "Unit 10: Reasoning with Protégé"
+  description: "This unit focuses on the architecture of a knowledge-based system and how various concepts fit within. It introduces further concepts to build on knowledge of reasoning in knowledge-based systems."
+  content: |
+    <h4>10.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Knowledge-Based System Architecture:</strong> How components of KBS work together for knowledge representation and reasoning</li>
+      <li><strong>Attribute Language Complements (ALC):</strong> Description logic for expressing complex concepts</li>
+      <li><strong>Open World Assumption (OWA):</strong> Unknown information is not assumed to be false</li>
+      <li><strong>Closed World Assumption (CWA):</strong> What is not known to be true is false</li>
+      <li><strong>Reasoning with Protégé:</strong> Using automated reasoners for inference and validation</li>
+    </ul>
+
+    <h4>10.2 Learning Outcomes</h4>
+    <ul>
+      <li>Develop further understanding of formalism approaches and techniques to knowledge representation and reasoning</li>
+      <li>Appreciate the challenges involved in the application of KRR techniques</li>
+      <li>Develop awareness of issues around KRR based systems</li>
+      <li>Discuss architecture of knowledge-based systems and its role in KRR</li>
+    </ul>
+
+    <h4>10.3 Reflection Notes</h4>
+    <p>Working through Debellis (2021) exercises 22-26 demonstrated how reasoning transforms static ontologies into dynamic knowledge systems. The distinction between Open and Closed World Assumptions fundamentally alters possible conclusions. In medical systems like Bright et al.'s (2012) antibiotic prescribing ontology, OWA proves essential since missing data does not indicate false information, though this creates ambiguity in practical applications.</p>
+
+    <p>KBS architecture revealed interdependencies between knowledge base, inference engine, and user interface components. ALC and description logic complexity present challenges when balancing expressiveness with computational efficiency. The trade-off between complex reasoning capabilities and performance requirements remains difficult to optimize, particularly in resource-constrained environments.</p>
+  references: |
+    <ol>
+      <li>Debellis, M. (2021). <em>A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins</em>.</li>
+      <li>Bright, T.J.et al. (2012) 'Development and Evaluation of an Ontology for Guiding Appropriate Antibiotic Prescribing', <em>Journal of Biomedical Informatics</em>, 45(1), pp. 120-128.</li>
+      <li>Kejriwal, Mayank. (2022) 'Knowledge Graphs: A Practical Review of the Research Landscape', <em>Information</em>, 13(4).</li>
+      <li>Hartel, F.W.et al. (2005) 'Modeling a Description Logic Vocabulary for Cancer Research', <em>Journal of Biomedical Informatics</em>, 38(2), pp. 114-129.</li>
+    </ol>
+  artifacts: []
+
+- unit_number: "11"
+  title: "Unit 11: Knowledge-Based Technologies and Emerging Applications"
+  description: "This unit helps you reflect on various topics covered in the module and investigate the future of knowledge-based systems as an approach to developing AI systems. It identifies various projects and initiatives on ontology development for future KBS."
+  content: |
+    <h4>11.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Ontology-Based Engineering:</strong> Integration of ontologies in engineering systems across social, economic, and political domains</li>
+      <li><strong>Enterprise Applications:</strong> ERP, PDM, CRM, and computer-aided systems using ontological approaches</li>
+      <li><strong>Multi-Domain Ontology:</strong> Ontologies spanning multiple domains and application areas</li>
+      <li><strong>Semantic Technologies:</strong> Use of ontologies as semantic technologies in engineering applications</li>
+      <li><strong>Emerging Use Cases:</strong> Product design, manufacturing, distributed data management, software development, GIS</li>
+    </ul>
+
+    <h4>11.2 Learning Outcomes</h4>
+    <ul>
+      <li>Develop understanding of key KRR based technologies</li>
+      <li>Develop ability to appraise KBS technologies and underlying modeling approaches</li>
+      <li>Develop awareness of emerging technologies around KRR based systems</li>
+      <li>Discuss emerging approaches to developing ontology and knowledge-based systems</li>
+      <li>Understand concept of multi-domain ontology</li>
+    </ul>
+
+    <h4>11.3 Reflection Notes</h4>
+    <p>The lecture cast covered widespread adoption of ontology-based engineering across various sectors. Examples including ERP systems, manufacturing chains, and GIS applications demonstrate semantic technologies addressing practical business requirements beyond academic research contexts. The Ontology-Based Engineering Group's harmonization efforts address fragmentation across multiple domains attempting to implement these techniques.</p>
+
+    <p>Amirhosseini (2023) highlighted complexity issues in ontology evaluation for multi-domain systems. Challenges around UML to OWL conversion and consistency maintenance across different technological approaches present significant implementation barriers. Use cases like product design automation and dynamic manufacturing orchestration suggest potential applications, though scalability and integration challenges remain substantial obstacles for widespread adoption.</p>
+  references: |
+    <ol>
+      <li>Debellis, M. (2021). <em>A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins</em>.</li>
+      <li>Amirhosseini, M. (2023) 'The Identification of the Information Quanta in Semantic Network: A basis for the Structural Analysis in Ontology Evaluation', <em>International Journal of Information Science and Management</em>, 21 (1), pp. 149–161.</li>
+    </ol>
+  artifacts: []
+
+- unit_number: "12"
+  title: "Unit 12: Ontology Evaluation - Case Study"
+  description: "This unit focuses on end-to-end development of knowledge-based systems using ontology. It discusses approaches to ontology development, methodology, and evaluation approaches based on case studies."
+  content: |
+    <h4>12.1 Key Concepts</h4>
+    <ul>
+      <li><strong>End-to-End Ontology Development:</strong> Complete lifecycle from conception to deployment</li>
+      <li><strong>Ontology Development Strategies:</strong> Different methodological approaches to building ontologies</li>
+      <li><strong>Evaluation Methodologies:</strong> Approaches to ensuring fit-for-purpose knowledge-based systems</li>
+      <li><strong>Case Study Analysis:</strong> Learning from real-world ontology implementations</li>
+      <li><strong>Development Choices and Decisions:</strong> Critical decisions in ontology design process</li>
+    </ul>
+
+    <h4>12.2 Learning Outcomes</h4>
+    <ul>
+      <li>Critically evaluate methods and approaches to knowledge-based systems</li>
+      <li>Develop ability to evaluate ontologies for knowledge-based system applications</li>
+      <li>Explore development choices and decisions needed when developing ontologies</li>
+      <li>Understand emerging methodologies and their applications</li>
+    </ul>
+
+    <h4>12.3 Reflection Notes</h4>
+    <p>De Colle et al.'s (2023) infectious disease ontology ecosystem demonstrated real-world ontology development complexity. Strategic choices from scope decisions to evaluation criteria indicate that successful ontology development requires project management and stakeholder engagement alongside technical modeling skills. The case study revealed gaps between theoretical frameworks and practical implementation challenges.</p>
+
+    <p>Reflective practice readings (Loughran, 2007; Bolton, 2006) emphasized learning through development process documentation. The module progression from basic KR concepts through practical Protégé implementation to industrial applications revealed incremental knowledge building, though connections between units sometimes felt forced. Ontology evaluation extends beyond technical correctness to problem-solving effectiveness, though measuring success remains subjective and context-dependent.</p>
+  references: |
+    <ol>
+      <li>De Colle, G., Hasanzadeh, A. and Beverley, J. (2023) 'Ontology Development Strategies and the Infectious Disease Ontology Ecosystem', <em>Proceedings of the International Conference on Biomedical Ontologies</em>.</li>
+      <li>Loughran, J. (2007) 'Learning Journals: A Handbook for Reflective Practice and Professional Development', <em>Canadian Society for the Study of Higher Education</em>, pp. 114–116.</li>
+      <li>Bolton, G. (2006) 'Narrative Writing: Reflective Enquiry into Professional Practice', <em>Educational Action Research</em>. Routledge, 14(2), pp. 203–218.</li>
+      <li>Harmelen, F V., Lifschitz, V. and Porter, B. (2008) <em>Handbook of Knowledge Representation</em>. Chapter 25.</li>
+      <li>Tarasov, V., Seigerroth, U. and Sandkuhl, K. (2019). 'Ontology Development Strategies in Industrial Contexts', in Abramowicz, W., Paschke, A. (eds) <em>Business Information Systems Workshops</em>, Springer.</li>
+    </ol>
+  artifacts: []

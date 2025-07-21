@@ -31,4 +31,9 @@ My E-Portfolio based on work carried out on my Msc Program on Artificial Intelli
     <h2><a href="./ia/">Intelligent Agents 2025</a></h2>
     <p>Collection of work and artifacts related to Intelligent Agents design and implementation.</p>
   </div>
+  
+  <div class="module-card has-content">
+    <h2><a href="./krr/">Knowledge Representation and Reasoning 2025</a></h2>
+    <p>Collection of work and artifacts related to Knowledge Representation and Reasoning techniques.</p>
+  </div>
 </div>
