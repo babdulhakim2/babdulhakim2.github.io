@@ -36,4 +36,9 @@ My E-Portfolio based on work carried out on my Msc Program on Artificial Intelli
     <h2><a href="./krr/">Knowledge Representation and Reasoning 2025</a></h2>
     <p>Advanced study of knowledge representation methods, logic programming, ontology development, and reasoning techniques with practical applications in artificial intelligence systems and semantic web technologies.</p>
   </div>
+  
+  <div class="module-card has-content">
+    <h2><a href="./rmpp/">Research Methods and Professional Practice July 2025</a></h2>
+    <p>Comprehensive study of research methodologies, statistical analysis, professional ethics, and practical skills for conducting rigorous research in computing and related fields, including literature reviews, survey design, and data visualization.</p>
+  </div>
 </div>
