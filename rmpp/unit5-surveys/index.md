@@ -3,19 +3,21 @@ layout: default
 title: "Reflective Activity 2: Case Study: Inappropriate Use of Surveys"
 ---
 
+[← Back to RMPP Module]({{ '/rmpp/#unit-5' | relative_url }})
+
 # Reflective Activity 2: Case Study: Inappropriate Use of Surveys
 
 ## Introduction
 
-The democratization of data collection through digital platforms has transformed survey methodology while simultaneously creating unprecedented opportunities for misuse. This reflection examines three significant cases of inappropriate survey and data collection practices: the Cambridge Analytica scandal (2018), TikTok's privacy violations (2021-2023), and Amazon Ring's surveillance overreach (2020-2023). Through analyzing these cases across ethical, social, legal, and professional dimensions, this study reveals systemic failures in consent mechanisms and highlights the urgent need for robust professional standards in digital survey research.
+This analysis examines three cases of inappropriate data collection practices, Cambridge Analytica (2018), TikTok (2021-2023), and Amazon Ring (2020-2023), to reveal systemic failures in consent mechanisms and highlight the need for robust professional standards in digital survey research.
 
 ## Case Study 1: Cambridge Analytica - The Trojan Horse of Academic Surveys (2018)
 
 ### The Mechanism of Deception
 
-Cambridge Analytica's data harvesting operation exemplified how legitimate research methodologies can be weaponized for political manipulation. Dr. Aleksandr Kogan, operating through his company Global Science Research, deployed a seemingly innocuous Facebook application called "This Is Your Digital Life" that presented itself as an academic personality survey (Confessore, 2018). The app paid approximately 320,000 users small amounts to complete psychological questionnaires, but Facebook's API permissions allowed access to participants' entire social networks—ultimately harvesting data from 87 million users without their knowledge or consent.
+Cambridge Analytica's data harvesting operation exemplified how legitimate research methodologies can be weaponized for political manipulation. Dr. Aleksandr Kogan, operating through his company Global Science Research, deployed a seemingly innocuous Facebook application called "This Is Your Digital Life" that presented itself as an academic personality survey (Confessore, 2018). The app paid approximately 320,000 users small amounts to complete psychological questionnaires, but Facebook's API permissions allowed access to participants' entire social networks, ultimately harvesting data from 87 million users without their knowledge or consent.
 
-The survey design itself was methodologically sound, employing established psychological assessment tools. However, the true purpose was not academic research but commercial data mining for political microtargeting. Christopher Wylie, the Cambridge Analytica whistleblower, revealed that the collected data enabled the creation of "psychographic profiles" used to influence voters in the 2016 US presidential election and Brexit referendum through targeted disinformation campaigns (The Guardian, 2018).
+The survey design itself was methodologically sound, employing established psychological assessment tools. However, the true purpose was nocalt academic research but commercial data mining for political microtargeting. Christopher Wylie, the Cambridge Analytica whistleblower, revealed that the collected data enabled the creation of "psychographic profiles" used to influence voters in the 2016 US presidential election and Brexit referendum through targeted disinformation campaigns (The Guardian, 2018).
 
 ### Impact Analysis
 
@@ -23,7 +25,7 @@ The survey design itself was methodologically sound, employing established psych
 
 **Social Implications**: The scandal undermined public trust in both academic research and social media platforms. It demonstrated how personal data could be weaponized to manipulate democratic processes, contributing to widespread skepticism about data-driven political messaging and online research participation.
 
-**Legal Implications**: The Federal Trade Commission fined Facebook $5 billion—the largest privacy penalty in US history at the time. Cambridge Analytica was found to have engaged in deceptive practices, violating consumer protection laws. The scandal catalyzed global privacy legislation, including enhanced enforcement of GDPR in Europe.
+**Legal Implications**: The Federal Trade Commission fined Facebook $5 billion, the largest privacy penalty in US history at the time. Cambridge Analytica was found to have engaged in deceptive practices, violating consumer protection laws. The scandal catalyzed global privacy legislation, including enhanced enforcement of GDPR in Europe.
 
 **Professional Implications**: The case exposed critical gaps in academic research oversight for digital platforms. It highlighted how traditional Institutional Review Board (IRB) processes were inadequate for assessing the risks of social media research and established the need for enhanced ethical training for researchers working with digital data.
 
@@ -33,7 +35,7 @@ The survey design itself was methodologically sound, employing established psych
 
 TikTok's data collection practices represent a more systematic approach to user surveillance disguised as platform functionality. Research revealed that TikTok collected extensive personal data including location information, device identifiers, browsing history from external websites, and even keystrokes entered within the app's browser (Consumer Reports, 2022). The platform particularly targeted children, collecting data from users as young as six years old without parental consent.
 
-Unlike traditional surveys, TikTok employed "invisible" data collection through algorithmic analysis of user behavior, facial recognition technology, and cross-platform tracking. This created what researchers termed "ambient data collection"—continuous surveillance masked as personalized content delivery.
+Unlike traditional surveys, TikTok employed "invisible" data collection through algorithmic analysis of user behavior, facial recognition technology, and cross-platform tracking. This created what researchers termed "ambient data collection" continuous surveillance masked as personalized content delivery.
 
 ### Impact Analysis
 
@@ -65,60 +67,23 @@ The ethical violations were multifaceted: Ring employees accessed customer video
 
 ## Comparative Analysis: Patterns of Abuse
 
-### Common Failure Modes
-
-All three cases share critical characteristics that illuminate systemic problems in digital data collection:
-
-1. **Consent Theater**: Each case involved performative consent mechanisms that obscured the true scope and purpose of data collection. Users were presented with simplified privacy notices that bore little relationship to actual data practices.
-
-2. **Mission Creep**: Initial data collection for ostensibly legitimate purposes (academic research, content personalization, home security) expanded far beyond original scope without additional user consent.
-
-3. **Vulnerable Population Exploitation**: Each case disproportionately impacted vulnerable groups—political minorities in Cambridge Analytica, children in TikTok, and marginalized communities with Ring.
-
-4. **Regulatory Lag**: In all cases, existing legal frameworks proved inadequate to address novel forms of digital exploitation, requiring post-hoc enforcement action and regulatory updates.
+All three cases share critical failure modes: **consent theater** that obscured true data practices, **mission creep** expanding beyond original purposes, **vulnerable population exploitation**, and **regulatory lag** requiring post-hoc enforcement.
 
 ## Professional Standards Gap
 
-### Current Framework Inadequacies
-
-Traditional research ethics frameworks, including those established by professional computing organizations like ACM and BCS, prove insufficient for addressing the sophisticated data collection mechanisms employed in these cases. The principles of beneficence, non-maleficence, autonomy, and justice require substantial reinterpretation for digital contexts.
-
-Current professional codes lack specificity regarding:
-- Algorithmic data collection and analysis
-- Cross-platform data integration
-- Long-term data retention and purpose limitation
-- Third-party data sharing obligations
-- Special protections for vulnerable populations in digital environments
+Traditional research ethics frameworks from ACM and BCS prove insufficient for sophisticated digital data collection. Current codes lack specificity regarding algorithmic collection, cross-platform integration, data retention limits, third-party sharing, and vulnerable population protections.
 
 ## Recommendations for Professional Practice
 
-### 1. Enhanced Consent Architectures
+1. **Enhanced Consent Architectures**—implement granular consent systems enabling specific data use control and dynamic permission modification
+2. **Privacy Impact Assessment Mandates**—require comprehensive assessments by interdisciplinary teams evaluating technical, social, and political implications
+3. **Professional Liability Standards**—establish clear accountability for privacy violations, similar to medical malpractice frameworks
+4. **Algorithmic Auditing Requirements**—mandate regular third-party audits with public transparency for community oversight
 
-Computing professionals must implement "granular consent" systems that allow users to understand and control specific data uses rather than accepting blanket permissions. This includes dynamic consent mechanisms that enable users to modify permissions over time as data use evolves.
+## Conclusion
 
-### 2. Privacy Impact Assessment Mandates
+These cases reveal fundamental breakdowns in professional ethics when data collection capabilities outpace professional standards. The path forward requires computing professionals to embrace broader social accountability, proactively considering impacts on democratic processes, vulnerable populations, and human rights. Failure to establish robust ethical frameworks threatens both individual privacy and democratic society's foundations.
 
-All data collection systems should undergo comprehensive Privacy Impact Assessments that evaluate not only technical privacy risks but also social and political implications. These assessments must be conducted by interdisciplinary teams including ethicists, social scientists, and affected community representatives.
-
-### 3. Professional Liability Standards
-
-The computing profession must establish clear liability standards for data misuse, similar to medical malpractice frameworks. Professionals involved in data collection system design should be personally accountable for privacy violations, creating stronger incentives for ethical design.
-
-### 4. Algorithmic Auditing Requirements
-
-Systems employing algorithmic data collection should be subject to regular third-party audits that evaluate both technical compliance and social impact. These audits should be publicly available to enable community oversight.
-
-## Conclusion: Toward Ethical Survey Practice
-
-The cases examined reveal that inappropriate use of surveys and data collection represents not merely technical failures but fundamental breakdowns in professional ethics and social responsibility. Cambridge Analytica, TikTok, and Amazon Ring each demonstrate how powerful data collection capabilities can be exploited when professional standards lag behind technological capabilities.
-
-The path forward requires more than regulatory compliance—it demands a fundamental rethinking of professional responsibilities in the digital age. Computing professionals must move beyond narrow technical competence to embrace broader social accountability. This includes proactive consideration of how data systems impact democratic processes, vulnerable populations, and fundamental human rights.
-
-The stakes are clear: failure to establish robust ethical frameworks for digital data collection threatens not only individual privacy but the social foundations of democratic society. The computing profession must rise to this challenge or risk surrendering its autonomy to external regulatory control.
-
-As stewards of increasingly powerful data systems, computing professionals bear unique responsibility for protecting the digital commons. The cases examined here serve as cautionary tales of what happens when that responsibility is abdicated in favor of commercial expedience or technological determinism.
-
-*Word Count: 1,456*
 
 ## References
 
@@ -137,4 +102,4 @@ As stewards of increasingly powerful data systems, computing professionals bear 
 - University of Texas (2019) 'The Ethical Implications of the 2018 Facebook-Cambridge Analytica Data Scandal', *Liberal Arts Undergraduate Thesis Collection*. Available at: [https://repositories.lib.utexas.edu/items/8317a547-d5aa-4962-9c15-fe051bbcf4e2](https://repositories.lib.utexas.edu/items/8317a547-d5aa-4962-9c15-fe051bbcf4e2)
 
 ---
-[← Back to RMPP Module]({{ '/rmpp/' | relative_url }})
+[← Back to RMPP Module]({{ '/rmpp/#unit-5' | relative_url }})
