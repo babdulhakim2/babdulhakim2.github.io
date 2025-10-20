@@ -2,217 +2,222 @@
 # This file contains all the information for RMPP units to be displayed on the site
 
 - unit_number: "1-3"
-  title: "Collaborative Discussion 1"
-  description: "Collaborative discussion spanning the first three units"
+  title: "Collaborative Discussion 1: Codes of Ethics and Professional Conduct"
+  description: "Three-week discussion analyzing ACM case studies through professional ethical frameworks and comparing with BCS Code of Conduct"
+  content: |
+    <h4>1-3.1 Key Concepts</h4>
+    <ul>
+      <li><strong>Professional Codes:</strong> ACM Code of Ethics and BCS Code of Conduct application</li>
+      <li><strong>Case Study Analysis:</strong> Real-world ethical scenarios from ACM examples</li>
+      <li><strong>Legal and Social Impact:</strong> Jurisdictional and professional implications</li>
+      <li><strong>Comparative Ethics:</strong> ACM versus BCS code frameworks</li>
+    </ul>
+
+    <h4>1-3.2 Learning Outcomes</h4>
+    <ul>
+      <li>Appraise the professional, legal, social, cultural and ethical issues that affect computing professionals</li>
+    </ul>
+
+    <h4>1-3.3 Reflection Notes</h4>
+    <p>The discussion examined AllTogether's accessibility failure case study, revealing tensions between delivery pressure and ethical compliance. Peer feedback emphasized integrating preventive measures into development processes, highlighting accessibility as fundamental professional competence (Gotterbarn et al., 2018). The analysis demonstrated how ACM and BCS codes address professional competence differently, with BCS emphasizing jurisdictional legal compliance while ACM focuses on broader public welfare principles (Wong, 2021).</p>
+  references: |
+    <ol>
+      <li>Gotterbarn, D., Wolf, M.J. and Flick, C. (2018) 'ACM Code of Ethics', Communications of the ACM, 61(1), pp. 121–128</li>
+      <li>Wong, R.Y. (2021) 'Tactics of soft resistance in user experience professionals' values work', Proceedings of the ACM on Human-Computer Interaction, 5(CSCW2), pp. 1-28</li>
+      <li>Gautam, A. et al. (2024) 'Socially responsible computing in an introductory course', Proceedings of the 55th ACM Technical Symposium on Computer Science Education, pp. 373-379</li>
+    </ol>
   artifacts:
     - title: "Initial Post and Peer Responses"
       url: "/rmpp/unit1-3/"
-      description: "Collaborative discussion posts and peer responses"
+      description: "Ethical analysis of accessibility failures with peer feedback and professional code application"
 
 - unit_number: "1"
-  title: "Unit 1: Introduction to Research Methods"
-  description: "Foundational concepts in research methodology and professional practice"
+  title: "Unit 1: Introduction to Research Methods - The Scientific Investigation and Ethics in Computing"
+  description: "Scientific method, deductive/inductive reasoning, and ethical frameworks for computing research and professional practice"
   content: |
     <h4>1.1 Key Concepts</h4>
-    <p>This unit introduces fundamental research concepts:</p>
     <ul>
-      <li><strong>Research Paradigms:</strong> Quantitative, qualitative, and mixed methods approaches</li>
-      <li><strong>Ethics in Computing:</strong> Principles governing responsible research and practice</li>
-      <li><strong>Literature Review:</strong> Systematic examination of existing research</li>
-      <li><strong>Research Proposal:</strong> Structure and components of effective research proposals</li>
+      <li><strong>Scientific Method:</strong> Observation, hypothesis, reasoning and testing approaches</li>
+      <li><strong>Deductive Reasoning:</strong> Theory to observation to conclusion methodology</li>
+      <li><strong>Inductive Reasoning:</strong> Observation to analysis to theory development</li>
+      <li><strong>Research Ethics:</strong> Menlo Report principles (Respect, Beneficence, Justice, Law and Public Interest)</li>
+      <li><strong>Professional Conduct:</strong> BCS and ACM codes for computing professionals</li>
     </ul>
 
     <h4>1.2 Learning Outcomes</h4>
-    <p>Key outcomes from this unit include:</p>
     <ul>
-      <li>Understanding different research methodologies and their applications</li>
-      <li>Recognizing ethical considerations in computing research</li>
-      <li>Developing skills in literature review and proposal writing</li>
-      <li>Applying research principles to computing contexts</li>
+      <li>Differentiate between inductive and deductive reasoning</li>
+      <li>Understand why ethics are important and how they relate to research and professional practice</li>
     </ul>
 
     <h4>1.3 Reflection Notes</h4>
-    <p>Research methodology provides the foundation for systematic inquiry in computing fields. The choice between quantitative and qualitative approaches depends on the research questions and the nature of the phenomenon being investigated.</p>
+    <p>The scientific method's combination of observation, hypothesis, reasoning and testing varies significantly across disciplines, with deductive and inductive reasoning serving as core problem-solving approaches (Anderson & Hepburn, 2020). Deductive reasoning provides perfect conclusions when assumptions are correct, while inductive reasoning proves more practical for everyday problems involving partial information.</p>
 
-    <p>Ethics in computing research extends beyond traditional research ethics to include considerations of data privacy, algorithmic bias, and the societal impact of technological innovations. These considerations are increasingly important as computing systems become more pervasive in society.</p>
+    <p>Research ethics in computing extends beyond traditional frameworks through the Menlo Report's four principles, particularly relevant in the generative AI age where additional moral considerations emerge (Finn & Shilton, 2023; Deckard, 2023). The distinction between ethics and morals becomes crucial for computing professionals navigating complex technological impacts on society.</p>
   references: |
     <ol>
-      <li>Research methodology foundations and principles</li>
-      <li>Ethics in computing research and practice</li>
+      <li>Anderson, H. and Hepburn, B. (2020) 'Scientific Method', The Stanford Encyclopedia of Philosophy (Winter 2020 edition)</li>
+      <li>Finn, M. and Shilton, K. (2023) 'Ethics governance development: The case of the Menlo Report', Social Studies of Science, 53(3), pp. 315-340</li>
+      <li>Deckard, R. (2023) What are Ethics in AI</li>
+      <li>Dawson, C. (2015) Projects in Computing and Information Systems: A Student's Guide, Chapters 2</li>
+      <li>Correa, N. et al. (2023) Worldwide AI ethics: A review of 200 guidelines and recommendations for AI governance</li>
     </ol>
   artifacts:
-    - title: "Reasoning Quiz"
-      description: "Assessment of reasoning and research fundamentals"
-      url: "/rmpp/unit1-quiz/"
     - title: "Reflective Activity 1: Ethics in Computing in the Age of Generative AI"
-      description: "Comprehensive analysis of ethical frameworks and novel solutions for computing professionals navigating generative AI challenges"
+      description: "Global AI Ethics Landscape: Challenges and Recommendations"
       url: "/rmpp/unit1-ethics/"
 
 - unit_number: "2"
-  title: "Unit 2: Literature Review Methodology"
-  description: "Advanced techniques for conducting systematic literature reviews and developing research proposals"
+  title: "Unit 2: Research Questions, the Literature Review and the Research Proposal"
+  description: "Research question formulation, literature review methodology, and research proposal development"
   content: |
     <h4>2.1 Key Concepts</h4>
     <ul>
-      <li><strong>Systematic Literature Review:</strong> Structured approach to reviewing existing research</li>
-      <li><strong>Research Databases:</strong> Academic sources and search strategies</li>
-      <li><strong>Citation Management:</strong> Tools and techniques for managing references</li>
-      <li><strong>Critical Analysis:</strong> Evaluating research quality and relevance</li>
+      <li>Formulating and revising research questions</li>
+      <li>Research proposal structure and components</li>
+      <li>Literature review process and presentation</li>
+      <li>Critical evaluation of literature</li>
     </ul>
 
     <h4>2.2 Learning Outcomes</h4>
     <ul>
-      <li>Conducting systematic literature searches</li>
-      <li>Critically evaluating research publications</li>
-      <li>Synthesizing findings from multiple sources</li>
-      <li>Developing research proposal outlines</li>
+      <li>Examine characteristics that make up suitable research topics</li>
+      <li>Explore rational and creative methods for formulating research ideas</li>
+      <li>Identify means of transforming research ideas into crafted research questions and proposals</li>
+      <li>Conduct literature searches, critique literature and present literature reviews</li>
     </ul>
 
     <h4>2.3 Reflection Notes</h4>
-    <p>Effective literature review requires both breadth and depth. The systematic approach ensures comprehensive coverage while maintaining focus on research objectives. Digital tools and databases have transformed the literature review process, enabling more efficient searching and analysis.</p>
+    <p>The process of defining research topics proved "daunting" as Boza (2022) notes, requiring careful question formulation and revision. My chosen topic <strong>"Evaluating the Impact of Large Language Models on Authorised Push Payment Fraud Detection and Prevention in the UK"</strong> emerged from my financial crime background. The literature review process involved systematic searching and critical evaluation of scholarly sources to identify gaps in existing research (Dawson, 2015).</p>
   references: |
     <ol>
-      <li>Systematic literature review methodologies</li>
-      <li>Research database best practices</li>
+      <li>Dawson, C. (2015) Projects in Computing and Information Systems: A Student's Guide, Chapters 1-3, 5</li>
+      <li>Boza, T. (2022) How to Write a Literature Review: Six Steps to Get You from Start to Finish</li>
+      <li>Healey, M., Matthews, K. and Cook-Sather, A. (2020) Writing about learning and teaching in higher education, Chapter 14</li>
+      <li>Kuziemsky, C. and Lau, F. (2016) Handbook of eHealth Evaluation An Evidence-based Approach, Chapter 9</li>
     </ol>
-  artifacts:
-    - title: "e-Portfolio Activity: Literature Review and Research Proposal Outlines"
-      description: "Development of literature review techniques and proposal structure"
-      url: "/rmpp/unit2-literature/"
 
 - unit_number: "3"
-  title: "Unit 3: Research Proposal Development"
-  description: "Advanced research proposal development and peer review processes"
+  title: "Unit 3: Methodology and Research Methods"
+  description: "Introduction to research methodology, design types, and data collection methods"
   content: |
     <h4>3.1 Key Concepts</h4>
     <ul>
-      <li><strong>Research Design:</strong> Experimental and observational study designs</li>
-      <li><strong>Methodology Selection:</strong> Choosing appropriate research methods</li>
-      <li><strong>Peer Review Process:</strong> Academic quality assurance mechanisms</li>
-      <li><strong>Proposal Structure:</strong> Standard academic proposal components</li>
+      <li>Exploratory vs Descriptive research designs</li>
+      <li>Qualitative, Quantitative, and Mixed Methods research</li>
+      <li>Primary and Secondary research approaches</li>
+      <li>Interview and survey design techniques</li>
     </ul>
 
     <h4>3.2 Learning Outcomes</h4>
     <ul>
-      <li>Developing comprehensive research proposals</li>
-      <li>Understanding peer review processes</li>
-      <li>Applying feedback for proposal improvement</li>
-      <li>Evaluating research methodologies</li>
+      <li>Understand the different research methods</li>
+      <li>Know which data collection methods are related to each method of research</li>
+      <li>Have some idea which of these would be suited to your area of research</li>
     </ul>
 
     <h4>3.3 Reflection Notes</h4>
-    <p>Research proposal development is an iterative process that benefits from peer feedback and revision. The peer review process serves both as quality control and learning opportunity, exposing researchers to diverse perspectives and methodological approaches.</p>
+    <p>The distinction between exploratory and descriptive research designs provided clarity for project planning. Understanding qualitative, quantitative, and mixed methods approaches helped determine appropriate data collection strategies. The lecturecast on interview and survey design proved particularly valuable, demonstrating how methodological choices impact research validity (Saunders et al., 2012).</p>
   references: |
     <ol>
-      <li>Research proposal development guidelines</li>
-      <li>Peer review best practices</li>
+      <li>Saunders, M., Lewis, P. and Thornhill, A. (2012) Research Methods for Business Students, 6th edn, Chapter 5</li>
+      <li>Dawson, C. (2015) Projects in Computing and Information Systems: A Student's Guide, Chapter 2</li>
+      <li>British Research Methodology (BRM) (2018) Research Design</li>
+      <li>Sage (2021) Sage Research Methods: Methods Map</li>
     </ol>
   artifacts:
     - title: "e-Portfolio Activity: Research Proposal Review"
-      description: "Peer review and evaluation of research proposals"
-      url: "/rmpp/unit3-proposal/"
-    - title: "Seminar 2: Peer Review Activity"
-      description: "Collaborative peer review session"
-      url: "/rmpp/unit3-seminar/"
+      description: "Methodology selection and data collection planning for chosen research area"
+      url: "/rmpp/unit3-methodology/"
 
 - unit_number: "4"
-  title: "Unit 4: Professional Practice and Privacy"
-  description: "Professional ethics, privacy considerations, and literature review refinement"
+  title: "Unit 4: Case Studies, Focus Groups and Observations"
+  description: "Data collection methods for qualitative research including case studies, focus groups, and observation techniques"
   content: |
     <h4>4.1 Key Concepts</h4>
     <ul>
-      <li><strong>Professional Ethics:</strong> Standards and codes of conduct in computing</li>
-      <li><strong>Privacy Engineering:</strong> Technical approaches to privacy protection</li>
-      <li><strong>Data Protection:</strong> Legal and technical frameworks for data security</li>
-      <li><strong>Case Study Analysis:</strong> Learning from real-world privacy incidents</li>
+      <li>Case study methodology and applications</li>
+      <li>Focus group design and facilitation</li>
+      <li>Quantitative vs Qualitative observation methods</li>
+      <li>Observer roles and participant interaction</li>
     </ul>
 
     <h4>4.2 Learning Outcomes</h4>
     <ul>
-      <li>Understanding professional ethical frameworks</li>
-      <li>Applying privacy principles in system design</li>
-      <li>Analyzing privacy case studies</li>
-      <li>Refining literature review techniques</li>
+      <li>Understand how to carry out each of these data collection methods</li>
+      <li>Know which method would be suitable, if any, for your investigation</li>
+      <li>Consider the type of data you would obtain</li>
     </ul>
 
     <h4>4.3 Reflection Notes</h4>
-    <p>Professional practice in computing requires balancing innovation with responsibility. Privacy considerations must be integrated throughout the system development lifecycle, not treated as an afterthought. Case studies provide valuable lessons about the real-world consequences of design decisions.</p>
+    <p>Learning about case studies, focus groups, and observation methods expanded my understanding of qualitative data collection. The distinction between quantitative observation (numerical values) and qualitative observation (monitoring characteristics) proved particularly useful. Understanding observer roles from complete observer to full participant highlighted the methodological considerations needed for valid research design (Dawson, 2015).</p>
   references: |
     <ol>
-      <li>Professional ethics in computing</li>
-      <li>Privacy engineering principles</li>
+      <li>Dawson, C. (2015) Projects in Computing and Information Systems: A Student's Guide, Chapter 2</li>
+      <li>Priya, A. (2021) 'Case Study Methodology of Qualitative Research: Key Attributes and Navigating the Conundrums in Its Application', Sociological bulletin, 70(1), pp. 94–110</li>
+      <li>Kaplan, B. and Maxwell, J. A. Qualitative Research Methods for Evaluating Computer Information Systems</li>
+      <li>Wohlin, C. (2021) Case Study Research in Software Engineering, Information and Software Technology</li>
     </ol>
-  artifacts:
-    - title: "Seminar 3: Case Study on Privacy"
-      description: "Analysis of privacy challenges and solutions"
-      url: "/rmpp/unit4-privacy/"
-    - title: "Literature Review Outline Submission"
-      description: "Refined literature review structure"
-      url: "/rmpp/unit4-outline/"
 
 - unit_number: "5"
-  title: "Unit 5: Survey Methods and Questionnaire Design"
-  description: "Survey methodology, questionnaire design, and data collection techniques"
+  title: "Unit 5: Interviews, Survey Methods, and Questionnaire Design"
+  description: "Interview techniques, survey methodology, questionnaire design, and pre-/post-testing methods"
   content: |
     <h4>5.1 Key Concepts</h4>
     <ul>
-      <li><strong>Survey Design:</strong> Principles of effective survey construction</li>
-      <li><strong>Question Types:</strong> Open-ended, closed-ended, and scaled responses</li>
-      <li><strong>Sampling Techniques:</strong> Representative sampling strategies</li>
-      <li><strong>Response Bias:</strong> Sources of bias and mitigation strategies</li>
+      <li>Interview methods and techniques</li>
+      <li>Survey vs questionnaire distinctions</li>
+      <li>Questionnaire design process and question types</li>
+      <li>Pre-testing and post-testing methods</li>
     </ul>
 
     <h4>5.2 Learning Outcomes</h4>
     <ul>
-      <li>Designing effective questionnaires</li>
-      <li>Understanding sampling methodologies</li>
-      <li>Identifying and addressing survey limitations</li>
-      <li>Analyzing case studies of survey misuse</li>
+      <li>Understand how interviews and surveys fit into research and whether either or both of these might be useful for your investigation</li>
+      <li>Understand how pre- and post-testing can be used in research</li>
+      <li>Design a questionnaire to obtain the responses you will need for your investigation</li>
+      <li>Understand how the data obtained can be analysed</li>
     </ul>
 
     <h4>5.3 Reflection Notes</h4>
-    <p>Survey methodology requires careful attention to question design, sampling strategy, and potential sources of bias. The case study of inappropriate survey use highlights the importance of ethical considerations and methodological rigor in data collection.</p>
+    <p>The questionnaire design process from deciding information required through pretesting proved invaluable for research planning. Analyzing inappropriate survey use cases like Cambridge Analytica highlighted ethical implications of data collection methods. Understanding the distinction between surveys and questionnaires, plus opening/closing question techniques, enhanced methodological awareness (Dawson, 2015).</p>
   references: |
     <ol>
-      <li>Survey methodology best practices</li>
-      <li>Questionnaire design principles</li>
+      <li>Dawson, C. (2015) Projects in Computing and Information Systems: A Student's Guide, Chapter 2</li>
+      <li>Hoepfl, M. C. (1997) 'Choosing Qualitative Research: A Primer for Technology Education Researchers', Journal of Technology Education, 9(1), pp. 47-63</li>
+      <li>Allsop, D. B. et al. (2022) 'Qualitative Methods with Nvivo Software: A Practical Guide for Analyzing Qualitative Data', Psych, 4(2), pp. 142–159</li>
+      <li>Brace, I. (2013) Questionnaire Design: How to Plan, Structure and Write a Survey, Kogan Page</li>
     </ol>
   artifacts:
     - title: "Reflective Activity 2: Case Study: Inappropriate Use of Surveys"
-      description: "Comprehensive analysis of Cambridge Analytica, TikTok, and Amazon Ring cases examining ethical, social, legal, and professional implications of data collection violations"
+      description: "Analysis of Cambridge Analytica, TikTok, and Amazon Ring cases examining ethical implications of data collection violations"
       url: "/rmpp/unit5-surveys/"
-    - title: "Wiki Activity: Questionnaires"
-      description: "Collaborative questionnaire design activity"
-      url: "/rmpp/unit5-wiki/"
 
 - unit_number: "6"
-  title: "Unit 6: Advanced Research Methods"
-  description: "Advanced quantitative and qualitative research methodologies"
+  title: "Unit 6: Quantitative Methods - Descriptive and Inferential Statistics"
+  description: "Introduction to quantitative analysis, descriptive statistics, and measures of location and spread"
   content: |
     <h4>6.1 Key Concepts</h4>
     <ul>
-      <li><strong>Mixed Methods:</strong> Combining quantitative and qualitative approaches</li>
-      <li><strong>Experimental Design:</strong> Controlled experiments and validity</li>
-      <li><strong>Observational Studies:</strong> Non-experimental research designs</li>
-      <li><strong>Data Quality:</strong> Ensuring reliability and validity</li>
+      <li>Quantitative data and levels of measurement</li>
+      <li>Descriptive statistics and data summarization</li>
+      <li>Measures of location (central tendency)</li>
+      <li>Measures of dispersion (spread and variability)</li>
     </ul>
 
     <h4>6.2 Learning Outcomes</h4>
     <ul>
-      <li>Selecting appropriate research methodologies</li>
-      <li>Understanding experimental controls and variables</li>
-      <li>Evaluating research design quality</li>
-      <li>Applying mixed methods approaches</li>
+      <li>Understand and apply descriptive statistics</li>
+      <li>Identify the different levels of measurement</li>
+      <li>Produce measures of location and spread</li>
     </ul>
 
     <h4>6.3 Reflection Notes</h4>
-    <p>Advanced research methods provide tools for addressing complex research questions that cannot be answered through single-method approaches. The integration of quantitative and qualitative methods offers complementary perspectives on phenomena under investigation.</p>
+    <p>Understanding quantitative methods proved fundamental for meaningful data analysis. Learning to distinguish between levels of measurement—nominal, ordinal, interval, and ratio—guides appropriate statistical technique selection. The progression from raw datasets to meaningful summary measures through descriptive statistics revealed how location and dispersion measures work together to characterize data distributions (Berenson et al., 2019).</p>
   references: |
     <ol>
-      <li>Advanced research methodology frameworks</li>
-      <li>Mixed methods research design</li>
+      <li>Berenson, L., Levine, D., and Szabat, K. (2019) Basic Business Statistics: Concepts and Applications, 14th edn, Pearson, Chapters 2-3</li>
     </ol>
-  artifacts: []
 
 - unit_number: "7-9"
   title: "Collaborative Discussion 2: Case Study on Accuracy of Information"
@@ -223,198 +228,212 @@
       description: "Analysis of information accuracy challenges and solutions"
 
 - unit_number: "7"
-  title: "Unit 7: Statistical Analysis Fundamentals"
-  description: "Introduction to statistical methods for research data analysis"
+  title: "Unit 7: Inferential Statistics and Hypothesis Testing"
+  description: "Inferential statistics, probability principles, and hypothesis testing for population inferences"
   content: |
     <h4>7.1 Key Concepts</h4>
     <ul>
-      <li><strong>Descriptive Statistics:</strong> Measures of central tendency and dispersion</li>
-      <li><strong>Inferential Statistics:</strong> Hypothesis testing and confidence intervals</li>
-      <li><strong>Statistical Software:</strong> Tools for data analysis</li>
-      <li><strong>Data Visualization:</strong> Graphical representation of findings</li>
+      <li>Inferential statistics and population inferences</li>
+      <li>Basic principles of probability</li>
+      <li>Hypothesis testing methodology</li>
+      <li>Statistical significance and p-values</li>
     </ul>
 
     <h4>7.2 Learning Outcomes</h4>
     <ul>
-      <li>Understanding statistical concepts and terminology</li>
-      <li>Performing basic statistical analyses</li>
-      <li>Interpreting statistical results</li>
-      <li>Using statistical software tools</li>
+      <li>Apply inferential statistics to data analysis</li>
+      <li>Identify the correct probability distributions</li>
+      <li>Perform appropriate hypothesis tests</li>
     </ul>
 
     <h4>7.3 Reflection Notes</h4>
-    <p>Statistical analysis provides the foundation for evidence-based conclusions in research. Understanding both the capabilities and limitations of statistical methods is crucial for conducting rigorous research and interpreting findings appropriately.</p>
+    <p>Learning inferential statistics transformed abstract probability concepts into practical analytical tools. Understanding how to make valid population inferences from sample data proved essential for evidence-based decision-making. The progression from descriptive statistics to hypothesis testing using LibreOffice functions like `=TTEST()` and `=QUARTILE()` provided hands-on experience distinguishing statistical from practical significance (Berenson et al., 2019).</p>
   references: |
     <ol>
-      <li>Statistical analysis fundamentals</li>
-      <li>Research data analysis techniques</li>
+      <li>Berenson, L., Levine, D., and Szabat, K. (2019) Basic Business Statistics: Concepts and Applications, 14th edn, Pearson, Chapters 4, 9-10</li>
+      <li>Purdue University (2023) Basic Inferential Statistics: Theory and Application</li>
     </ol>
   artifacts:
-    - title: "Seminar 4: Inferential Statistics Workshop and Statistics Worksheet"
-      description: "Hands-on statistical analysis practice"
-      url: "/rmpp/unit7-stats/"
+    - title: "Hypothesis Testing Worksheet"
+      description: "Conduct hypothesis tests to compare groups and validate statistical claims using LibreOffice functions"
+      url: "/rmpp/unit7-stats/hypothesis_testing_exercises.html"
+    - title: "Summary Measures Worksheet"
+      description: "Calculate descriptive statistics using LibreOffice Calc for diet effectiveness and brand preference analysis"
+      url: "/rmpp/unit7-stats/summary_measures_exercises.html"
+    - title: "Literature Review"
+      description: "Evaluating the Impact of Large Language Models on Authorised Push Payment Fraud Detection and Prevention in the UK"
+      url: "/rmpp/unit7/artefacts/Unit7_Literature_Review.pdf"
 
 - unit_number: "8"
-  title: "Unit 8: Research Implementation"
-  description: "Practical implementation of research projects and proposal refinement"
+  title: "Unit 8: Data Analysis and Visualisation"
+  description: "Statistical data analysis techniques and visualization methods for research communication"
   content: |
     <h4>8.1 Key Concepts</h4>
     <ul>
-      <li><strong>Project Planning:</strong> Timeline and resource management</li>
-      <li><strong>Data Collection:</strong> Implementing data gathering protocols</li>
-      <li><strong>Quality Assurance:</strong> Ensuring data integrity and validity</li>
-      <li><strong>Proposal Refinement:</strong> Iterative improvement based on feedback</li>
+      <li><strong>Descriptive Statistics:</strong> Summary measures for data characterization</li>
+      <li><strong>Statistical Inference:</strong> Making population inferences from sample data</li>
+      <li><strong>Data Visualization:</strong> Charts, graphs, and visual communication techniques</li>
+      <li><strong>LibreOffice Analysis:</strong> Statistical functions and data analysis tools</li>
     </ul>
 
     <h4>8.2 Learning Outcomes</h4>
     <ul>
-      <li>Managing research project timelines</li>
-      <li>Implementing data collection protocols</li>
-      <li>Ensuring research quality standards</li>
-      <li>Refining research proposals</li>
+      <li>Apply descriptive and inferential statistical techniques</li>
+      <li>Create effective data visualizations for research communication</li>
+      <li>Interpret statistical results and their practical significance</li>
+      <li>Use LibreOffice statistical functions for data analysis</li>
     </ul>
 
     <h4>8.3 Reflection Notes</h4>
-    <p>The transition from research planning to implementation often reveals unforeseen challenges and opportunities for refinement. Effective project management and quality assurance processes are essential for maintaining research integrity throughout the implementation phase.</p>
+    <p>This unit bridged the gap between theoretical statistics and practical application through data visualization and analysis. Creating confidence intervals and conducting power analysis revealed the importance of sample size planning in research design. The progression from basic descriptive statistics to complex inferential procedures using LibreOffice enhanced analytical capabilities for evidence-based decision-making in professional contexts.</p>
   references: |
     <ol>
-      <li>Research project management</li>
-      <li>Data collection best practices</li>
+      <li>Berenson, L., Levine, D., and Szabat, K. (2019) Basic Business Statistics: Concepts and Applications, 14th edn, Pearson</li>
+      <li>Saunders, M., Lewis, P. and Thornhill, A. (2023) Research Methods for Business Students, Chapter 12</li>
     </ol>
-  artifacts:
-    - title: "e-Portfolio Activity: Research Proposal Outline"
-      description: "Refined research proposal based on implementation experience"
-      url: "/rmpp/unit8-proposal/"
-
-- unit_number: "8-9"
-  title: "Statistical Worksheet Submissions"
-  description: "Comprehensive statistical analysis worksheets and practical applications"
-  artifacts:
-    - title: "Statistical Analysis Worksheets"
-      url: "/rmpp/unit8-9-stats/"
-      description: "Completed statistical analysis exercises and interpretations"
 
 - unit_number: "9"
-  title: "Unit 9: Data Visualization and Reporting"
-  description: "Advanced data visualization techniques and research reporting standards"
+  title: "Unit 9: Validity and Generalisability in Research"
+  description: "Validity, generalisability, and reliability considerations in research design and data presentation"
   content: |
     <h4>9.1 Key Concepts</h4>
     <ul>
-      <li><strong>Chart Design:</strong> Principles of effective data visualization</li>
-      <li><strong>Statistical Graphics:</strong> Appropriate chart types for different data</li>
-      <li><strong>Report Writing:</strong> Academic and professional reporting standards</li>
-      <li><strong>Visual Communication:</strong> Conveying insights through graphics</li>
+      <li><strong>Validity:</strong> Measurement targeting the correct construct</li>
+      <li><strong>Reliability:</strong> Consistency of measurement processes</li>
+      <li><strong>Generalisability:</strong> Applicability of findings to broader populations</li>
+      <li><strong>Data Cleansing:</strong> Validation processes before analysis</li>
+      <li><strong>Qualitative vs Quantitative:</strong> Analysis and presentation differences</li>
     </ul>
 
     <h4>9.2 Learning Outcomes</h4>
     <ul>
-      <li>Creating effective data visualizations</li>
-      <li>Selecting appropriate chart types</li>
-      <li>Writing professional research reports</li>
-      <li>Communicating findings to diverse audiences</li>
+      <li>Understand how validity, generalisability, and reliability affect research design</li>
+      <li>Distinguish between qualitative and quantitative data analysis approaches</li>
+      <li>Apply data cleansing and validation processes before analysis</li>
+      <li>Consider how results enable answering research questions</li>
     </ul>
 
     <h4>9.3 Reflection Notes</h4>
-    <p>Data visualization serves as a bridge between statistical analysis and meaningful communication of research findings. The choice of visualization technique can significantly impact how audiences interpret and understand research results.</p>
+    <p>I initially underestimated how reliability must be established before validity can even be assessed. Working through the concepts, I realized that my previous research approaches often jumped to validity concerns without ensuring measurement consistency first. The lecturecast clarified how qualitative data interpretation differs fundamentally from quantitative analysis - something I hadn't fully appreciated when designing my research proposal on RL explainability. This unit made me reconsider my data collection timeline, as Saunders et al. (2023) emphasize that cleansing and validation processes need planning before any data gathering begins.</p>
   references: |
     <ol>
-      <li>Data visualization principles</li>
-      <li>Research reporting standards</li>
+      <li>Schneider, C. (2018) Making the case: A Qualitative Approach to Studying Social Media Documents, in Bryman, A. & Buchanan, D. (eds.) Unconventional Methodology in Organization and Management Research. Oxford Scholarship Online</li>
+      <li>Saunders, M., Lewis, P. and Thornhill, A. (2023) Research Methods for Business Students, 9th edn, Pearson, Chapter 11.4</li>
     </ol>
   artifacts:
-    - title: "e-Portfolio Activity: Charts Example Worksheet"
-      description: "Data visualization exercises and examples"
+    - title: "e-Portfolio Activity: Charts Worksheet"
+      description: "Data visualization exercises with solutions for bar charts, histograms, and clustered columns"
       url: "/rmpp/unit9-charts/"
 
 - unit_number: "10"
-  title: "Unit 10: Research Synthesis and Analysis"
-  description: "Advanced techniques for synthesizing research findings and conducting meta-analysis"
+  title: "Unit 10: Research Writing"
+  description: "Research writing skills for dissertations, proposals, and technical communication"
   content: |
     <h4>10.1 Key Concepts</h4>
     <ul>
-      <li><strong>Research Synthesis:</strong> Integrating findings from multiple studies</li>
-      <li><strong>Meta-Analysis:</strong> Statistical techniques for combining study results</li>
-      <li><strong>Systematic Reviews:</strong> Comprehensive evaluation of research literature</li>
-      <li><strong>Evidence Hierarchy:</strong> Evaluating strength of research evidence</li>
+      <li><strong>Research Writing:</strong> Technical communication for academic and professional contexts</li>
+      <li><strong>Dissertation Structure:</strong> Standard sections and organization principles</li>
+      <li><strong>Research Proposals:</strong> Structure and presentation of research plans</li>
+      <li><strong>Academic Publishing:</strong> Peer-reviewed journals and publication standards</li>
     </ul>
 
     <h4>10.2 Learning Outcomes</h4>
     <ul>
-      <li>Conducting systematic research synthesis</li>
-      <li>Understanding meta-analytical techniques</li>
-      <li>Evaluating research evidence quality</li>
-      <li>Completing comprehensive statistical analyses</li>
+      <li>Structure dissertations and research documents effectively</li>
+      <li>Present research proposals professionally</li>
+      <li>Apply academic writing conventions</li>
+      <li>Communicate technical knowledge clearly</li>
     </ul>
 
     <h4>10.3 Reflection Notes</h4>
-    <p>Research synthesis requires both technical skills in statistical analysis and critical thinking skills in evaluating study quality and relevance. The ability to synthesize findings from multiple sources is increasingly important in evidence-based practice.</p>
+    <p>Research writing is essential for technical professionals, providing a structured approach to communicating complex ideas. This unit culminates previous work on literature reviews, research methods, and proposal development into a comprehensive presentation format.</p>
   references: |
     <ol>
-      <li>Research synthesis methodologies</li>
-      <li>Meta-analysis techniques</li>
+      <li>Dawson, C. (2015) Projects in Computing and Information Systems</li>
+      <li>Heard, S. (2016) The Scientist's Guide to Writing</li>
+      <li>Academic writing and research presentation standards</li>
     </ol>
-  artifacts: []
+  artifacts:
+    - title: "Research Proposal Presentation"
+      description: "Interpretable Verifier-Reinforcement Learning for Financial Crime Detection via Sparse Autoencoders"
+      url: "/rmpp/unit10/artefacts/Unit10_Research_Proposal.pdf"
 
 - unit_number: "11"
-  title: "Unit 11: e-Portfolio Development and Professional Presentation"
-  description: "Comprehensive e-portfolio development and professional presentation techniques"
+  title: "Unit 11: Going Forward: Professional Development and Your e-Portfolio"
+  description: "Professional development planning based on e-Portfolio reflection, skills matrix completion, and CPD action planning"
   content: |
     <h4>11.1 Key Concepts</h4>
     <ul>
-      <li><strong>Portfolio Design:</strong> Organizing and presenting academic work</li>
-      <li><strong>Professional Presentation:</strong> Academic and industry presentation standards</li>
-      <li><strong>Digital Literacy:</strong> Effective use of digital tools and platforms</li>
-      <li><strong>Career Development:</strong> Positioning work for professional advancement</li>
+      <li><strong>e-Portfolio Review:</strong> Summative and formative assessment throughout the programme</li>
+      <li><strong>Professional Skills Matrix:</strong> Assessment of current competencies and development needs</li>
+      <li><strong>Action Planning:</strong> Structured approach to continued professional development (CPD)</li>
+      <li><strong>Industry Certifications:</strong> Technical credentials for maintaining current knowledge</li>
+      <li><strong>Learning Loop:</strong> Holistic review tool for degree programme and future planning</li>
     </ul>
 
     <h4>11.2 Learning Outcomes</h4>
     <ul>
-      <li>Creating comprehensive e-portfolios</li>
-      <li>Presenting work professionally</li>
-      <li>Utilizing digital tools effectively</li>
-      <li>Connecting academic work to career objectives</li>
+      <li>Review learning approach based on reflections throughout the programme</li>
+      <li>Complete Professional Skills matrix considering professional goals and module outcomes</li>
+      <li>Provide necessary reflection for Learning Loop completion</li>
+      <li>Develop comprehensive action plan for continued professional development</li>
     </ul>
 
     <h4>11.3 Reflection Notes</h4>
-    <p>The e-portfolio serves as both a learning tool and a professional showcase, requiring careful curation and presentation of academic work. Effective portfolio development demonstrates both technical competence and reflective practice.</p>
+    <p>Week 11 represents a culmination of professional practice discussions throughout the module. The e-Portfolio serves as a comprehensive record of the learning journey, enabling creation of a Showcase e-Portfolio for sharing with peers and employers. Reflections on learning processes provide insight into personal learning approaches and their impact on professional practice.</p>
+
+    <p>The Professional Skills matrix and action plan extend beyond the degree programme, forming the foundation for lifelong learning and career development. Industry certifications play a crucial role in maintaining technical relevance and developing essential professional practice aspects.</p>
   references: |
     <ol>
-      <li>e-Portfolio development best practices</li>
-      <li>Professional presentation techniques</li>
+      <li>UoEO. Short Guide to Reflective Writing</li>
+      <li>Mindtools. (no date) Personal Swot Analysis</li>
+      <li>O' Mara, M. (2023) The future of Computing, MIT</li>
+      <li>Jisc. (2019) Digital storytelling for the future</li>
+      <li>Jisc. (2019) Building digital and employability capabilities into the curriculum</li>
+      <li>Jisc. (2012) Stories of e-Portfolio Implementation - Thanet College, Kent</li>
+      <li>Alyoussef, I.Y. (2023) Acceptance of e-learning in higher education: The role of task-technology fit with the information systems success model</li>
+      <li>Ariningsih, N.K.D., Artini, L.P. and Marsakawati, N.P.E. (2021) 'The effect of e-portfolio in project-based learning toward learner autonomy and writing competency', Journal of Education Research and Evaluation, 5(1)</li>
+      <li>Pospíšilová, L. and Rohlíková, L. (2023) Reforming higher education with ePortfolio implementation, enhanced by learning analytics</li>
+      <li>Janssens, O. et al. (2022) The role of ePortfolios in supporting learning in eight healthcare disciplines: A scoping review. Nurse Education in Practice</li>
     </ol>
-  artifacts:
-    - title: "Seminar 6: e-Portfolio Preparation"
-      description: "Comprehensive e-portfolio development session"
-      url: "/rmpp/unit11-portfolio/"
+  artifacts: []
 
 - unit_number: "12"
-  title: "Unit 12: Professional Development and Future Practice"
-  description: "Capstone unit focusing on professional development and continued learning in research and practice"
+  title: "Unit 12: Project Management and Managing Risk"
+  description: "Project management methodologies, risk assessment, and change management processes for computing projects"
   content: |
     <h4>12.1 Key Concepts</h4>
     <ul>
-      <li><strong>Lifelong Learning:</strong> Strategies for continued professional development</li>
-      <li><strong>Research Impact:</strong> Measuring and maximizing research influence</li>
-      <li><strong>Professional Networks:</strong> Building and maintaining professional relationships</li>
-      <li><strong>Ethical Practice:</strong> Ongoing ethical considerations in professional work</li>
+      <li><strong>Project Management:</strong> Controlling processes and activities related to computing infrastructure and information systems projects</li>
+      <li><strong>Project Life Cycles:</strong> Structured phases and methodologies for project implementation</li>
+      <li><strong>Risk Management:</strong> Identifying, assessing, and mitigating project risks and uncertainties</li>
+      <li><strong>Change Control:</strong> Managing inevitable project changes while maintaining scope, quality, and timelines</li>
+      <li><strong>Remote Collaboration:</strong> Technologies and software supporting distributed project teams</li>
     </ul>
 
     <h4>12.2 Learning Outcomes</h4>
     <ul>
-      <li>Developing strategies for lifelong learning</li>
-      <li>Understanding research impact and dissemination</li>
-      <li>Building professional networks</li>
-      <li>Maintaining ethical standards in practice</li>
+      <li>Define and explain project management concepts and their application to computing projects</li>
+      <li>Demonstrate appreciation of project life cycles and methodologies</li>
+      <li>Understand how projects are impacted by risk and uncertainty</li>
+      <li>Prepare comprehensive risk management plans</li>
+      <li>Appreciate technologies supporting remote collaboration</li>
+      <li>Control risk and manage project change effectively</li>
     </ul>
 
     <h4>12.3 Reflection Notes</h4>
-    <p>Professional development in research and practice requires ongoing commitment to learning and ethical practice. The integration of research skills with professional competencies prepares practitioners for leadership roles in their fields.</p>
+    <p>The complexity of computing projects necessitates structured project management approaches, as no 'one size fits all' methodology exists (Nicholas & Steyn, 2020). The PMBOK Guide's emphasis on project uniqueness aligns with the diverse environments and objectives encountered in computing infrastructure projects. Risk-free projects are non-existent, making proactive risk identification crucial for project success.</p>
+
+    <p>Chapman's (2019) maturity model highlights that effective risk management enhances project capability through systematic deployment of assessment frameworks. The integration of Agile methodologies (Mircea, 2019) with traditional project management provides flexibility essential for managing software development uncertainties. McKinsey's (2022) AI status report demonstrates how technological advancement creates both opportunities and risks requiring adaptive project management approaches.</p>
   references: |
     <ol>
-      <li>Professional development in research fields</li>
-      <li>Lifelong learning strategies</li>
+      <li>Nicholas, J.M. and Steyn, H., (2020) Project management for engineering, business and technology. Routledge. Chapters 1, 3, 5, and 10</li>
+      <li>Project Management Institute. (2020) A Guide to the Project Management Body of Knowledge PMBOK Guide, 7th Edition. Newtown Square, PA: Project Management Institute</li>
+      <li>Mircea, E. (2019) Project Management using Agile Frameworks</li>
+      <li>McManus, J. (2004) Risk Management in Software Development and Software Engineering Projects</li>
+      <li>The Association for Project Management (APM). (2023) What is a Gantt Chart?</li>
+      <li>McKinsey. (2023) The Status of AI in 2022</li>
+      <li>Successful projects. (no date) Project Management Methodologies</li>
+      <li>Chapman, R. (2019) 'Exploring the Value of Risk Management for Projects: Improving Capability Through the Deployment of a Maturity Model', IEEE Engineering Management Review, 47(1), pp. 126-143</li>
     </ol>
-  artifacts:
-    - title: "Self Test Quiz"
-      description: "Comprehensive assessment of course concepts and applications"
-      url: "/rmpp/unit12-quiz/"
+  artifacts: []

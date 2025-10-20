@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Collaborative Discussion 1: Ethical Analysis of Accessibility Failures"
+title: "Collaborative Discussion 1: Codes of Ethics and Professional Conduct"
 ---
 
-## Collaborative Discussion 1: Ethical Analysis of Accessibility Failures (Units 1-3)
+## Collaborative Discussion 1: Codes of Ethics and Professional Conduct (Units 1-3)
 
 ## Initial Post: Ethical Analysis of Accessibility Failures: Applying ACM and BCS Codes of Conduct to Software Development
 
