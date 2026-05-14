@@ -3,3 +3,11 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+venv
+data
+models
+.venv
+.venv_eval
+results
+__pycache__
+.DS_Store
