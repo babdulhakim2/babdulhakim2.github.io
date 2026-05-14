@@ -41,4 +41,10 @@ My E-Portfolio based on work carried out on my Msc Program on Artificial Intelli
     <h2><a href="./rmpp/">Research Methods and Professional Practice July 2025</a></h2>
     <p>Comprehensive study of research methodologies, statistical analysis, professional ethics, and practical skills for conducting rigorous research in computing and related fields, including literature reviews, survey design, and data visualization.</p>
   </div>
+
+  <div class="module-card has-content">
+    <h2><a href="./final_project/">MSc Computing Project October 2025 A</a></h2>
+    <p>Final dissertation artefacts for an encoder-based policy guardrail for autonomous web agents, including the dissertation, defense deck, benchmark-grounded PCM pipeline, trained model, and focused SuiteCRM pilot.</p>
+  </div>
+
 </div>
