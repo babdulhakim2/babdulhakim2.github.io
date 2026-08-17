@@ -23,7 +23,7 @@ This page presents the final dissertation artefacts for **Encoder-Based Policy G
 
 <div class="module-grid">
   <div class="module-card has-content">
-    <h2><a href="./final_dissertation.pdf">Dissertation PDF</a></h2>
+    <h2><a href="./Encoder_Based_Policy_Guardrails_for_Web_Agents.pdf">Dissertation PDF</a></h2>
     <p>The final submitted dissertation, including methodology, results, figures, limitations, and future work.</p>
   </div>
 
